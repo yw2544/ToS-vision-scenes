@@ -1,0 +1,74 @@
+{
+  "wnid": "",
+  "wcategory": "",
+  "scale_factor": 0.5,
+  "do_not_use": false,
+  "do_not_use_reason": "",
+  "canonical_rotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "flex": false,
+  "physics_quality": 1.0,
+  "asset_bundle_sizes": {
+    "Windows": 0,
+    "Darwin": 68064,
+    "Linux": 0
+  },
+  "bounds": {
+    "center": {
+      "x": 0.0,
+      "y": -0.0002913475,
+      "z": -0.110929012
+    },
+    "front": {
+      "x": 0.0,
+      "y": -0.0002913475,
+      "z": -0.080929012
+    },
+    "back": {
+      "x": 0.0,
+      "y": -0.0002913475,
+      "z": -0.140929012
+    },
+    "right": {
+      "x": 0.4,
+      "y": -0.0002913475,
+      "z": -0.110929012
+    },
+    "left": {
+      "x": -0.4,
+      "y": -0.0002913475,
+      "z": -0.110929012
+    },
+    "top": {
+      "x": 0.0,
+      "y": 0.9997086525,
+      "z": -0.110929012
+    },
+    "bottom": {
+      "x": 0.0,
+      "y": -1.0002913475,
+      "z": -0.110929012
+    }
+  },
+  "substructure": [
+    {
+      "name": "default",
+      "materials": [
+        "Material.001",
+        "Metal"
+      ]
+    }
+  ],
+  "composite_object": false,
+  "volume": 0.096,
+  "container_shapes": [],
+  "name": "door",
+  "urls": {
+    "Windows": "file:////Users/songshe/ai2thor/tdw_import_md/output_fbx/door/Windows/door",
+    "Darwin": "file:////Users/songshe/ai2thor/tdw_import_md/output_fbx/door/Darwin/door",
+    "Linux": "file:////Users/songshe/ai2thor/tdw_import_md/output_fbx/door/Linux/door"
+  }
+}

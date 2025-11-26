@@ -1,0 +1,12 @@
+# Large asset trees (downloaded separately)
+model_lib/
+model_record/
+
+# Temporary build artifacts
+_temp/
+.cache/
+*.log
+
+# macOS cruft
+.DS_Store
+

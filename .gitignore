@@ -1,0 +1,29 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs / temporary data
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Model assets (downloaded or generated)
+models/model_import/model_lib/
+models/model_import/model_record/
+models/model_import/_temp/
+
+# Validation caches
+validation/**/__pycache__/
+
+# Misc build caches
+*.egg-info/
+.pytest_cache/
+

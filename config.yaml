@@ -1,0 +1,97 @@
+# Multiroom Scene Generator Configuration
+# =====================================
+
+# Room Layout Generation Settings
+room_layout:
+  # ===== VAGEN RoomGenerator (NEW METHOD) =====
+  use_vagen: true                   # Use VAGEN RoomGenerator instead of generate_room_layout.py
+  
+  # VAGEN parameters (only these are used when use_vagen is true)
+  room_size_tuple: [6, 6]           # Size of each room (width, height)
+  room_num: 4                       # Number of rooms
+  n_objects: 4                      # Objects per room (total = n_objects * room_num)
+  topology: 1                       # Topology: 0=main connects to 1 room, 1=main connects to 2 rooms
+
+# Object Generation Settings (for scene generation, not mask generation)
+object_generation:
+  mode: "fixed"                     # "fixed", "total", or "proportional"
+  total_objects: 16                 # Total objects across all rooms
+  fix_object_n: [4, 4, 4, 4]           # Per-room object count (for mode="fixed")
+  proportional_to_area: true        # Distribute by room area (for mode="proportional")
+
+# Scene Generation Settings
+scene_generation:
+  # TDW Settings
+  port: 1073                  # TDW communication port
+  
+  # Object Settings
+  overall_scale: 0.6          # Overall scale multiplier for objects
+  
+  # Model Settings
+  builtin_models_path: "tos_data_gen/models/builtin_models.json"  # Path to built-in models JSON
+  custom_models_path: "tos_data_gen/models/custom_models.json"    # Path to custom models JSON
+  door_record_path: "models/door_record.json"        # Path to the standalone door record
+  disable_custom_models: false   # Set to true to use only library models
+
+# Batch Generation Settings
+batch:
+  num_runs: 3               # Number of runs to generate
+  seed_start: 9                # Starting seed
+  seed_increment: 1            # Increment between seeds
+  run_offset:  9               # Start from run number
+
+# Output Settings
+output:
+  base_dir: "tos_data_gen/aaa_dataset_test_seed"        # Base output directory
+  save_mask: true             # Save generated mask files
+  save_layout_debug: true     # Save layout generation debug info
+  save_scene_metadata: true   # Save scene generation metadata
+
+# Debug Settings
+debug:
+  verbose: true               # Enable verbose output
+  save_intermediate: false    # Save intermediate files
+  layout_emoji_display: true  # Show emoji layout during generation
+  object_generator_logs: false  # Enable detailed object generator debug prints
+
+# VAGEN Settings
+vagen:
+  path: ""                    # Absolute path to VAGEN repo (optional)
+
+# Text-based Validity Settings (for TextBase alignment)
+text_based_validity:
+  enabled: true               # Enable text-based validity checking
+  pre_render_validation: true # Enable validation before TDW rendering
+  max_retries: 1000           # Maximum retries for layout regeneration
+  seed_increment: 137         # Prime number increment for dependent seed generation
+  
+  # Pre-render validation using VAGEN EvaluationManager (before TDW rendering)
+  eval_tasks:                # Task configurations for validation
+    - task_type: "rot"       # Rotation task
+      num: 1                 # Number of this task type (required by new API)
+    - task_type: "rot_dual"  # Dual rotation task  
+      num: 1
+    - task_type: "dir"       # Direction task
+      num: 1
+    - task_type: "pov"       # Point of view task
+      num: 1
+    - task_type: "e2a"       # Egocentric to allocentric task
+      num: 1
+    - task_type: "fwd_loc"   # Forward localization task
+      num: 1
+    - task_type: "bwd_loc"   # Backward localization task
+      num: 1
+    - task_type: "false_belief"  # False belief task
+      num: 1
+    # Navigation tasks
+    - task_type: "fwd_fov"   # Forward field of view task
+      num: 1
+      task_kwargs:
+        num_choices: 4        # Add required parameters
+    - task_type: "bwd_nav"   # Backward navigation task
+      num: 1
+      task_kwargs:
+        num_choices: 4        # Add required parameters
+    # New task type available in VAGEN
+    - task_type: "bwd_pov"   # Backward point of view task
+      num: 1

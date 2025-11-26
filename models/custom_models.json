@@ -1,0 +1,4689 @@
+[
+  {
+    "name": "scooter",
+    "model_name": "scooter1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/scooter1/scooter1/record.json",
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/scooter2/scooter2/record.json",
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/scooter3/scooter3/record.json",
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter4",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/scooter4/scooter4/record.json",
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/scooter5/scooter5/record.json",
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/scooter6/scooter6/record.json",
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter7",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/scooter7/scooter7/record.json",
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter8",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/scooter8/scooter8/record.json",
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter9",
+    "scale": 0.007,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/scooter9/scooter9/record.json",
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter10",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/scooter10/scooter10/record.json",
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/laptop1/laptop1/record.json",
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/laptop2/laptop2/record.json",
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/laptop3/laptop3/record.json",
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/laptop4/laptop4/record.json",
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop5",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/laptop5/laptop5_new/record.json",
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/laptop6/laptop6/record.json",
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/laptop7/laptop7/record.json",
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop8",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/laptop8/laptop8/record.json",
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/laptop9/laptop9/record.json",
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop10",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/laptop10/laptop10/record.json",
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "television",
+    "model_name": "television1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/television1/television1/record.json",
+    "has_orientation": true,
+    "category": "television"
+  },
+  {
+    "name": "television",
+    "model_name": "television2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/television2/television2/record.json",
+    "has_orientation": true,
+    "category": "television"
+  },
+  {
+    "name": "televison",
+    "model_name": "television3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/television3/television3/record.json",
+    "has_orientation": true,
+    "category": "television"
+  },
+  {
+    "name": "televison",
+    "model_name": "television4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/television4/television4/record.json",
+    "has_orientation": true,
+    "category": "television"
+  },
+  {
+    "name": "television",
+    "model_name": "television5",
+    "scale": 0.007,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/television5/television5/record.json",
+    "has_orientation": true,
+    "category": "television"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/toy_truck1/toy_truck1/record.json",
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/toy_truck2/toy_truck2/record.json",
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/toy_truck3/toy_truck3/record.json",
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/toy_truck4/toy_truck4/record.json",
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/toy_truck5/toy_truck5/record.json",
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/toy_truck6/toy_truck6/record.json",
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/toy_truck7/toy_truck7/record.json",
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/toy_truck9/toy_truck9/record.json",
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck10",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/toy_truck10/toy_truck10/record.json",
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/cap1/cap1/record.json",
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/cap2/cap2/record.json",
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/cap3/cap3/record.json",
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/cap4/cap4/record.json",
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/cap5/cap5/record.json",
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane1",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/airplane1/airplane1_new/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/airplane2/airplane2/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/airplane3/airplane3/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane4",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/airplane4/airplane4_new/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/airplane5/airplane5/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/airplane6/airplane6/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/airplane7/airplane7/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane8",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/airplane8/airplane8/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/airplane9/airplane9/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane10",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/airplane10/airplane10/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/backpack1/backpack1/record.json",
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack2",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/backpack2/backpack2/record.json",
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/backpack3/backpack3/record.json",
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/backpack4/backpack4/record.json",
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack5",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/backpack5/backpack5_new3/record.json",
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack6",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/backpack6/backpack6_new3/record.json",
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack7",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/backpack7/backpack7/record.json",
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack8",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/backpack8/backpack8/record.json",
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/bike1/bike1/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/bike2/bike2/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/bike3/bike3/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike4",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/bike4/bike4/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/bike5/bike5/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/bike6/bike6_new/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike7",
+    "scale": 0.005,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/bike7/bike7/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike8",
+    "scale": 0.005,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/bike8/bike8/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike9",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/bike9/bike9_new/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike10",
+    "scale": 0.006,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/bike10/bike10/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair1",
+    "scale": 0.001,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair1/chair1/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair2/chair2/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair3/chair3/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair4/chair4/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair5",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair5/chair5_new3/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair6/chair6/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair7",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair7/chair7_new3/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair8",
+    "scale": 0.005,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair8/chair8/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair9",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair9/chair9_new2/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair10",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair10/chair10/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair11",
+    "scale": 0.005,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair11/chair11/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair12",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/chair12/chair12/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "shoppingcart",
+    "model_name": "shoppingcart1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoppingcart1/shoppingcart1/record.json",
+    "has_orientation": true,
+    "category": "shoppingcart"
+  },
+  {
+    "name": "shoppingcart",
+    "model_name": "shoppingcart2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoppingcart2/shoppingcart2/record.json",
+    "has_orientation": true,
+    "category": "shoppingcart"
+  },
+  
+  {
+    "name": "shoppingcart",
+    "model_name": "shoppingcart4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoppingcart4/shoppingcart4/record.json",
+    "has_orientation": true,
+    "category": "shoppingcart"
+  },
+  {
+    "name": "shoppingcart",
+    "model_name": "shoppingcart5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoppingcart5/shoppingcart5/record.json",
+    "has_orientation": true,
+    "category": "shoppingcart"
+  },
+  {
+    "name": "shoppingcart",
+    "model_name": "shoppingcart6",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoppingcart6/shoppingcart6/record.json",
+    "has_orientation": true,
+    "category": "shoppingcart"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes1",
+    "scale": 0.014,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoes1/shoes1_new3/record.json",
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes2",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoes2/shoes2/record.json",
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes3",
+    "scale": 0.014,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoes3/shoes3_new3/record.json",
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes4",
+    "scale": 0.014,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoes4/shoes4_new3/record.json",
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes5",
+    "scale": 0.014,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoes5/shoes5_new3/record.json",
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes6",
+    "scale": 0.016,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoes6/shoes6_new4/record.json",
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "teddybear",
+    "model_name": "teddybear1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/teddybear1/teddybear1/record.json",
+    "has_orientation": true,
+    "category": "teddybear"
+  },
+  {
+    "name": "teddybear",
+    "model_name": "teddybear2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/teddybear2/teddybear2/record.json",
+    "has_orientation": true,
+    "category": "teddybear"
+  },
+  {
+    "name": "teddybear",
+    "model_name": "teddybear3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/teddybear3/teddybear3/record.json",
+    "has_orientation": true,
+    "category": "teddybear"
+  },
+  {
+    "name": "rubberduck",
+    "model_name": "rubberduck1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/rubberduck1/rubberduck1/record.json",
+    "has_orientation": true,
+    "category": "rubberduck"
+  },
+  {
+    "name": "rubberduck",
+    "model_name": "rubberduck2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/rubberduck2/rubberduck2_new2/record.json",
+    "has_orientation": true,
+    "category": "rubberduck"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket1",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/basket1/basket1/record.json",
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket2",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/basket2/basket2_new4/record.json",
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/basket3/basket3/record.json",
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/basket4/basket4/record.json",
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket5",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/basket5/basket5/record.json",
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket6",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/basket6/basket6_new2/record.json",
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket7",
+    "scale": 0.018,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/basket7/basket7/record.json",
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket8",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/basket8/basket8/record.json",
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket9",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/basket9/basket9/record.json",
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket10",
+    "scale": 0.018,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/basket10/basket10/record.json",
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf1",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shelf1/shelf1/record.json",
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf2",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shelf2/shelf2_new/record.json",
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shelf3/shelf3/record.json",
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shelf4/shelf4/record.json",
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf5",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shelf5/shelf5/record.json",
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf6",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shelf6/shelf6/record.json",
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf7",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shelf7/shelf7/record.json",
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf8",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shelf8/shelf8/record.json",
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shelf9/shelf9_new/record.json",
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf10",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shelf10/shelf10/record.json",
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge1",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/fridge1/fridge1/record.json",
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge2",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/fridge2/fridge2/record.json",
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge3",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/fridge3/fridge3/record.json",
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge4",
+    "scale": 0.016,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/fridge4/fridge4/record.json",
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge5",
+    "scale": 0.016,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/fridge5/fridge5/record.json",
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge6",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/fridge6/fridge6/record.json",
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge7",
+    "scale": 0.016,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/fridge7/fridge7/record.json",
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge8",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/fridge8/fridge8/record.json",
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge9",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/fridge9/fridge9/record.json",
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge10",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/fridge10/fridge10/record.json",
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "cabinet",
+    "model_name": "cabinet1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/cabinet1/cabinet1/record.json",
+    "has_orientation": false,
+    "category": "cabinet"
+  },
+  {
+    "name": "cabinet",
+    "model_name": "cabinet2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/cabinet2/cabinet2/record.json",
+    "has_orientation": false,
+    "category": "cabinet"
+  },
+  {
+    "name": "cabinet",
+    "model_name": "cabinet3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/cabinet3/cabinet3/record.json",
+    "has_orientation": false,
+    "category": "cabinet"
+  },
+  {
+    "name": "cabinet",
+    "model_name": "cabinet4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/cabinet4/cabinet4/record.json",
+    "has_orientation": false,
+    "category": "cabinet"
+  },
+  {
+    "name": "cabinet",
+    "model_name": "cabinet5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/cabinet5/cabinet5/record.json",
+    "has_orientation": false,
+    "category": "cabinet"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow1",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/pillow1/pillow1/record.json",
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow2",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/pillow2/pillow2/record.json",
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/pillow3/pillow3/record.json",
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/pillow4/pillow4/record.json",
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow5",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/pillow5/pillow5/record.json",
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow6",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/pillow6/pillow6_new/record.json",
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/pillow7/pillow7/record.json",
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow8",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/pillow8/pillow8/record.json",
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/pillow9/pillow9/record.json",
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow10",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/pillow10/pillow10/record.json",
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle1",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/candle1/candle1/record.json",
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle2",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/candle2/candle2/record.json",
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/candle3/candle3/record.json",
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/candle4/candle4/record.json",
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/candle5/candle5/record.json",
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle6",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/candle6/candle6_new/record.json",
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle7",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/candle7/candle7/record.json",
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle8",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/candle8/candle8/record.json",
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle9",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/candle9/candle9/record.json",
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle10",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/candle10/candle10/record.json",
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "books",
+    "model_name": "books1",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/books1/books1/record.json",
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books2",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/books2/books2/record.json",
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/books3/books3/record.json",
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/books4/books4/record.json",
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books5",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/books5/books5/record.json",
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books6",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/books6/books6/record.json",
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books7",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/books7/books7/record.json",
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books8",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/books8/books8/record.json",
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books9",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/books9/books9/record.json",
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books10",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/books10/books10/record.json",
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine1",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/wine1/wine1_new2/record.json",
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine2",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/wine2/wine2/record.json",
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/wine3/wine3/record.json",
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/wine4/wine4/record.json",
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine5",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/wine5/wine5/record.json",
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine6",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/wine6/wine6/record.json",
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/soda_can1/soda_can1/record.json",
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/soda_can2/soda_can2/record.json",
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/soda_can3/soda_can3_new/record.json",
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can4",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/soda_can4/soda_can4/record.json",
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/soda_can5/soda_can5/record.json",
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can6",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/soda_can6/soda_can6/record.json",
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can7",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/soda_can7/soda_can7/record.json",
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can8",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/soda_can8/soda_can8/record.json",
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/lamp1/lamp1/record.json",
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp2",
+    "scale": 0.011,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/lamp2/lamp2_new3/record.json",
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/lamp3/lamp3/record.json",
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp4",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/lamp4/lamp4_new3/record.json",
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/lamp5/lamp5/record.json",
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/lamp6/lamp6/record.json",
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/lamp7/lamp7/record.json",
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp8",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/lamp8/lamp8/record.json",
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp9",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/lamp9/lamp9/record.json",
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp10",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/lamp10/lamp10/record.json",
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/vase1/vase1/record.json",
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/vase2/vase2/record.json",
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/vase3/vase3/record.json",
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase4",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/vase4/vase4/record.json",
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/vase5/vase5/record.json",
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase6",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/vase6/vase6/record.json",
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase7",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/vase7/vase7/record.json",
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase8",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/vase8/vase8/record.json",
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase9",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/vase9/vase9/record.json",
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase10",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/vase10/vase10/record.json",
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/plant1/plant1_new2/record.json",
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/plant2/plant2/record.json",
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/plant3/plant3/record.json",
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant4",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/plant4/plant4_new2/record.json",
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/plant5/plant5/record.json",
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/plant6/plant6/record.json",
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/plant7/plant7/record.json",
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant8",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/plant8/plant8/record.json",
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/plant9/plant9/record.json",
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant10",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/plant10/plant10/record.json",
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "table",
+    "model_name": "table1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/table1/table1/record.json",
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/table2/table2/record.json",
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/table3/table3/record.json",
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table4",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/table4/table4/record.json",
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/table5/table5/record.json",
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table6",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/table6/table6/record.json",
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table7",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/table7/table7/record.json",
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table8",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/table8/table8/record.json",
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table9",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/table9/table9/record.json",
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table10",
+    "scale": 0.006,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/table10/table10/record.json",
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop11",
+    "scale": 0.02,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/laptop1/Laptop/record.json", 
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "cat",
+    "model_name": "cat1",
+    "scale": 0.8,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/output_cat1/cat/record.json",
+    "has_orientation": true,
+    "category": "cat_and_dog"
+  },
+  {
+    "name": "cat",
+    "model_name": "cat2",
+    "scale": 0.001,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/cat2/CAT2/record.json",
+    "has_orientation": true,
+    "category": "cat_and_dog"
+  },
+  {
+    "name": "dog",
+    "model_name": "dog1",
+    "scale": 0.0015,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation":  {"x": 0, "y": 180, "z": 0},
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/dog1/Unity2Skfb/record.json",
+    "has_orientation": true,
+    "category": "cat_and_dog"
+  },
+  {
+    "name": "dog",
+    "model_name": "dog2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/dog2/Anjiing2/record.json",
+    "has_orientation": true,
+    "category": "cat_and_dog"
+  },
+  {
+    "name": "toilet",
+    "model_name": "toilet1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/output_toilet1/toilet/record.json",
+    "has_orientation": true,
+    "category": "toilet"
+  },
+  {
+    "name": "toilet",
+    "model_name": "toilet2",
+    "scale": 0.002,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/toilet2/Portal_Toilet_0_9/record.json",
+    "has_orientation": true,
+    "category": "toilet"
+  },
+  {
+    "name": "toilet",
+    "model_name": "toilet3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/toilet3/JAPANESE_TOILET_TOTO/record.json",
+    "has_orientation": true,
+    "category": "toilet"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap6",
+    "scale": 0.00035,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {"x": 0, "y": 180, "z": 0},
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/output_cap1/cap/record.json",
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap7",
+    "scale": 0.3,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/cap2/Hat1/record.json",
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes7",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/objaverse_import/model_import/model_record/shoes7/shoes7_new3/record.json",
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes8",
+    "scale": 0.002,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/shoes2/shoes/record.json",
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes9",
+    "scale": 0.2,
+    "default_position":  {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/shoes3/Military_shoes/record.json",
+    "has_orientation": true,
+    "category": "shoes"
+  },
+ 
+
+  {
+    "name": "airplane",
+    "model_name": "airplane11",
+    "scale": 0.0008,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/airplane2/a37a/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane13",
+    "scale": 0.02,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/airplane4/Airport_Airplane1/record.json",
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter11",
+    "scale": 0.004,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/scooter2/3DEC_02/record.json",
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  
+  {
+    "name": "bike",
+    "model_name": "bike11",
+    "scale": 0.005,
+    "default_position": {"x": 0, "y": 0.1, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/bicycle1/bicycle/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike12",
+    "scale": 0.0035,
+    "default_position": {"x": 0, "y": 0.06, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 310.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/bicycle2/FBXBicycle/record.json",
+    "has_orientation": true,
+    "category": "bike"
+  },
+  
+  
+  {
+    "name": "teddybear",
+    "model_name": "teddybear4",
+    "scale": 0.006,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/teddybear3/bearMergedwTex/record.json",
+    "has_orientation": true,
+    "category": "teddybear"
+  },
+  {
+    "name": "teddybear",
+    "model_name": "teddybear5",
+    "scale": 0.22,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/teddybear4/teddyBear_PUBLISHED/record.json",
+    "has_orientation": true,
+    "category": "teddybear"
+  },
+  {
+    "name": "truck",
+    "model_name": "truck11",
+    "scale": 0.0006,
+    "default_position": {"x": 0, "y": 0.2, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/truck1/Truck_Toy1/record.json",
+    "has_orientation": true,
+    "category": "truck"
+  },
+  
+  {
+    "name": "truck",
+    "model_name": "truck12",
+    "scale": 2.0,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/truck4/KidsTruck/record.json",
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "teapot",
+    "model_name": "teapot1",
+    "scale": 0.0015,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/teapot1/Teapot/record.json",
+    "has_orientation": true,
+    "category": "teapot_and_kettle"
+  },
+ 
+  {
+    "name": "teapot",
+    "model_name": "teapot4",
+    "scale": 0.0012,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/teapot4/TeepotModel_low/record.json",
+    "has_orientation": true,
+    "category": "teapot_and_kettle"
+  },
+  {
+    "name": "rubberduck",
+    "model_name": "rubberduck3",
+    "scale": 0.012,
+    "default_position": {"x": 0, "y": 0.1, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/rubberduck1/beeduck_low/record.json",
+    "has_orientation": true,
+    "category": "rubberduck"
+  },
+  {
+    "name": "rubberduck",
+    "model_name": "rubberduck4",
+    "scale": 0.12,
+    "default_position": {"x": 0, "y": 0.1, "z": 0},
+    "default_rotation":  {"x": 0, "y": 180, "z": 0},
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/rubberduck2/Rubber_Duck/record.json",
+    "has_orientation": true,
+    "category": "rubberduck"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair13",
+    "scale": 0.008,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color":  null ,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/office_chair1/OfficeChair_Modern/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair14",
+    "scale": 0.02,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color":  null ,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/office_chair2/Chair/record.json",
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "desklamp",
+    "model_name": "desklamp2",
+    "scale": 0.1,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/desklamp2/DeskLamp_LP/record.json",
+    "has_orientation": true,
+    "category": "lamp"
+  },
+  {
+    "name": "desklamp",
+    "model_name": "desklamp3",
+    "scale": 0.075,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/desklamp3/deskLamp01/record.json",
+    "has_orientation": true,
+    "category": "lamp"
+  },
+  
+  {
+    "name": "lego man",
+    "model_name": "lego1",
+    "scale": 0.0025,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/lego1/LEGO_Emmet/record.json",
+    "has_orientation": true,
+    "category": "lego"
+  },
+  {
+    "name": "lego man",
+    "model_name": "lego3",
+    "scale": 0.04,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/lego3/Lego/record.json",
+    "has_orientation": true,
+    "category": "lego"
+  },
+  {
+    "name": "lego man",
+    "model_name": "lego4",
+    "scale": 0.016,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/lego4/Lego_man_pilot/record.json",
+    "has_orientation": true,
+    "category": "lego"
+  },
+  
+  
+
+  {
+    "name": "backpack",
+    "model_name": "backpack9",
+    "scale": 0.004,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/backpack4/s_mat/record.json",
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  
+  {
+    "name": "washing_machine",
+    "model_name": "washing_machine1",
+    "scale": 0.007,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/washing_machine1/SM_Washing_Machine_1/record.json",
+    "has_orientation": false,
+    "category": "washing_machine"
+  },
+  {
+    "name": "washing_machine",
+    "model_name": "washing_machine3",
+    "scale": 0.0008,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/washing_machine3/WashMachine/record.json",
+    "has_orientation": false,
+    "category": "washing_machine"
+  },
+  {
+    "name": "alarmclock",
+    "model_name": "alarm_clock1",
+    "scale": 0.036,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/alarm_clock1/AlarmClock/record.json",
+    "has_orientation": true,
+    "category": "alarm_clock"
+  },
+  {
+    "name": "mug",
+    "model_name": "mug2",
+    "scale": 0.01,
+    "default_position": {"x": 0, "y": 0, "z": 0},
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": "/Users/songshe/ai2thor/tdw_import_md/mug2/Mug/record.json",
+    "has_orientation": true,
+    "category": "mug"
+  }
+
+
+]
