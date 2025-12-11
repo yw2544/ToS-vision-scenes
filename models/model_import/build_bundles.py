@@ -65,17 +65,35 @@ def prepare_model_files(model_path: Path, temp_dir: Path) -> Path:
                 print(f"[warn] {model_name}: missing MTL file {mtl_source.name}")
 
     texture_count = 0
-    for ext in TEXTURE_EXTENSIONS:
-        for tex_file in model_path.parent.glob(f"*{ext}"):
-            shutil.copy2(tex_file, work_dir / tex_file.name)
-            texture_count += 1
 
-    textures_dir = model_root / "textures"
-    if textures_dir.exists():
-        for ext in TEXTURE_EXTENSIONS:
-            for tex_file in textures_dir.glob(f"*{ext}"):
-                shutil.copy2(tex_file, work_dir / tex_file.name)
-                texture_count += 1
+    def _copy_textures(src_dir: Path, keep_subdirs: bool = False) -> int:
+        """Copy textures from src_dir (flat or recursive) into work_dir.
+        If the source dir is named 'textures', preserve that folder name so MTL refs like 'textures/foo.png' work."""
+        if not src_dir.exists():
+            return 0
+        copied = 0
+        if keep_subdirs:
+            base = work_dir / (src_dir.name if src_dir.name.lower() == "textures" else "")
+            for tex_file in src_dir.rglob("*"):
+                if tex_file.is_file() and tex_file.suffix.lower() in TEXTURE_EXTENSIONS:
+                    rel = tex_file.relative_to(src_dir)
+                    dst = base / rel
+                    dst.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(tex_file, dst)
+                    copied += 1
+        else:
+    for ext in TEXTURE_EXTENSIONS:
+                for tex_file in src_dir.glob(f"*{ext}"):
+            shutil.copy2(tex_file, work_dir / tex_file.name)
+                    copied += 1
+        return copied
+
+    # Textures alongside the model file
+    texture_count += _copy_textures(model_path.parent)
+    # Shared textures folder at model_root/textures (keep structure)
+    texture_count += _copy_textures(model_root / "textures", keep_subdirs=True)
+    # Nested textures folder under source/textures (keep structure)
+    texture_count += _copy_textures(model_path.parent / "textures", keep_subdirs=True)
 
     if model_dst.suffix.lower() == ".obj":
         mtl_path = model_dst.with_suffix(".mtl")

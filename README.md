@@ -1,5 +1,10 @@
 # ToS Data Generation Pipeline
 
+Generate ToS vision-scene data end-to-end (mask → layout → TDW scene). Sample outputs are available on Hugging Face for direct use:
+- https://huggingface.co/datasets/yw12356/tos_dataset_1117_3room_100runs
+- https://huggingface.co/datasets/yw12356/tos_dataset_1116_4room_loop_25runs
+- https://huggingface.co/datasets/yw12356/tos_dataset_1114_4room_25runs
+
 This module wraps the full “Mask → Layout → TDW Scene” flow used by ToS. It includes:
 
 - **Layout generation** via VAGEN or the legacy generator.
@@ -10,6 +15,30 @@ The sections below describe the required preparation, how to run the pipeline, a
 configuration fields you are most likely to tweak.
 
 ---
+## 0. Checklist (do in order)
+
+1) **Prep env + VAGEN**: create/activate Python env; install `tdw`, `numpy`, `pyyaml`, `pillow`, `matplotlib`, `huggingface_hub`; install `assimp` (CLI); set `VAGEN_PATH` or fill `vagen.path` in `config.yaml`.
+2) **Model-import deps**: `cd tos_data_gen/models/model_import`; ensure `assimp` works; Unity Editor path ready.
+3) **Download assets**: in `model_import`, run `python download.py` (writes to `model_lib/`); confirm Unity/Hub per TDW custom-model docs.
+4) **Build TDW bundles** (must finish before running scenes):
+   ```bash
+   chmod +x build_all_bundles.sh
+   ./build_all_bundles.sh \
+     tos_data_gen/models/door_record.json \
+     tos_data_gen/models/model_import/model_record \
+     /Applications/Unity/Hub/Editor/2022.3.61f1c1/Unity.app/Contents/MacOS/Unity
+   # or:
+   python build_bundles.py \
+     --unity-path "/Applications/Unity/Unity.app/Contents/MacOS/Unity" \
+     --build-door
+   ```
+   (~250 models; ~1–2 min each → can take hours.)
+5) **Configure + run pipeline**: `cd /Users/songshe/objaverse_import/reconstruction/ToS-vision-scenes`; set absolute paths in `config.yaml` (`custom_models_path`, `builtin_models_path`, `door_record_path`, `vagen.path`); then:
+   ```bash
+   python pipeline.py \
+     --config config.yaml \
+     --output output_full
+   ```
 
 ## 1. Prerequisites
 
@@ -19,7 +48,7 @@ configuration fields you are most likely to tweak.
 | **TDW** | The TDW Python package plus a Unity build of TDW 1.12+ (or any version compatible with `tdw.controller`). |
 | **Unity Editor** | Required for asset bundle creation. Supply the binary path when running the bundler scripts. |
 | **`assimp` CLI** | Used to convert FBX to OBJ for mesh cleanup (`brew install assimp`). |
-| **VAGEN repository** | Clone the official VAGEN repo somewhere on disk; the absolute path is referenced in `config.yaml` (see below). |
+| **VAGEN repository** | Clone the official VAGEN repo somewhere on disk; the absolute path is referenced in `config.yaml` (see below). Ensure the VAGEN env is already set up (submodules/branch as needed) and install the same Python deps as this pipeline in that env. |
 | **Git LFS** | Needed to download the model library dataset from Hugging Face. |
 
 ---
@@ -29,11 +58,8 @@ configuration fields you are most likely to tweak.
 1. **Download the raw meshes**
    ```bash
    cd tos_data_gen/models/model_import
-   huggingface-cli login                          # if not already logged in
-   huggingface-cli download \
-     yw12356/ToS_model_lib \
-     --repo-type dataset \
-     --local-dir model_lib
+   # Python helper (uses huggingface_hub.snapshot_download; no git-lfs required)
+   python download.py   # outputs to model_lib/
    ```
    The dataset preview is available at  
    `https://huggingface.co/datasets/yw12356/ToS_model_lib`.
@@ -42,8 +68,8 @@ configuration fields you are most likely to tweak.
    ```bash
    chmod +x build_all_bundles.sh
    ./build_all_bundles.sh \
-     tos_data_gen/models/door_record.json \
-     tos_data_gen/models/model_import/model_record \
+     ToS-vision-scenes/models/door_record.json \
+     ToS-vision-scenes/models/model_import/model_record \
      /Applications/Unity/Hub/Editor/2022.3.61f1c1/Unity.app/Contents/MacOS/Unity
    ```
    - The script calls `build_bundles.py` to process every entry in
@@ -69,19 +95,10 @@ configuration fields you are most likely to tweak.
 From the project root:
 
 ```bash
-python -m tos_data_gen.pipeline \
-  --config tos_data_gen/config.yaml \
-  --output tos_data_gen/aaa_dataset_test_seed \
-  --layout-only   # optional flag; omit to run full TDW scenes
+python pipeline.py \
+  --config config.yaml \
+  --output output_dataset \
 ```
-
-Pipeline arguments:
-
-- `--config`: Path to the YAML config (defaults to `tos_data_gen/config.yaml`).
-- `--output`: Overrides `output.base_dir` inside the YAML (optional).
-- `--layout-only`: Stops after mask/layout generation (no TDW rendering).
-
-The script prints progress for each batch run (seed, room generation, validation, etc.).
 
 ---
 
@@ -149,21 +166,7 @@ and agent pose before TDW rendering.
 
 ---
 
-## 5. Optional presets / environment tips
-
-- **VAGEN path**: After cloning the repo, set `vagen.path` to the folder containing
-  `multi_room_gen/...`. You can also export an environment variable (e.g., `VAGEN_HOME`)
-  and reference it in your own wrapper scripts.
-- **TDW build selection**: If you maintain multiple TDW builds, override the port and
-  `launch_build` options when instantiating `SceneGenerator` or patch TDW’s config to
-  pick the correct executable.
-- **Model paths**: You may keep `model_lib/` outside the repo and symlink it into
-  `models/model_import/model_lib` if disk space is a concern. The bundler only requires
-  consistent folder names (`<category>/<model_name>/source`).
-
----
-
-## 6. Troubleshooting
+## 5. Troubleshooting
 
 | Symptom | Fix |
 |---------|-----|
@@ -174,23 +177,26 @@ and agent pose before TDW rendering.
 
 ---
 
-## 7. Repository layout (abridged)
+## 6. Repository layout (abridged)
 
 ```
-tos_data_gen/
+ToS-vision-scenes/
 ├── config.yaml                    # Main pipeline configuration
 ├── pipeline.py                    # Entry point
 ├── layout/                        # VAGEN + legacy layout generators
 ├── models/
 │   ├── builtin_models.json
+│   ├── builtin_models.json
 │   ├── custom_models.json
-│   └── model_import/              # Bundler scripts + (downloaded) assets
+│   └── model_import/              # Bundler scripts +           
+          └── model_lib (download from https://huggingface.co/datasets/yw12356/ToS_model_lib)
+          └── model_record (create when building bundles) 
+          └── scripts(download.py, build_bundles.py, build_all bundles.sh)        
 ├── scene/                         # TDW scene construction, object placement, etc.
 ├── utils/                         # VAGEN helpers and shared utilities
 ├── validation/                    # Pre-render validation (RAGEN)
 └── README.md                      # (this file)
 ```
 
-Feel free to adjust the config to match your workflow—most fields can be tuned without
-editing code.
+
 

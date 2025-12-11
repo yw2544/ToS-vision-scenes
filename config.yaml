@@ -28,9 +28,9 @@ scene_generation:
   overall_scale: 0.6          # Overall scale multiplier for objects
   
   # Model Settings
-  builtin_models_path: "tos_data_gen/models/builtin_models.json"  # Path to built-in models JSON
-  custom_models_path: "tos_data_gen/models/custom_models.json"    # Path to custom models JSON
-  door_record_path: "models/door_record.json"        # Path to the standalone door record
+  builtin_models_path: "ToS-vision-scenes/models/builtin_models.json"  # Path to built-in models JSON
+  custom_models_path: "ToS-vision-scenes/models/custom_models.json"    # Path to custom models JSON
+  door_record_path: "ToS-vision-scenes/models/door_record.json"        # Path to the standalone door record
   disable_custom_models: false   # Set to true to use only library models
 
 # Batch Generation Settings
@@ -42,7 +42,7 @@ batch:
 
 # Output Settings
 output:
-  base_dir: "tos_data_gen/aaa_dataset_test_seed"        # Base output directory
+  base_dir: "ToS-vision-scenes/dataset"        # Base output directory
   save_mask: true             # Save generated mask files
   save_layout_debug: true     # Save layout generation debug info
   save_scene_metadata: true   # Save scene generation metadata

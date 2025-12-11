@@ -1,7 +1,7 @@
 {
   "wnid": "",
   "wcategory": "",
-  "scale_factor": 0.5,
+  "scale_factor": 0.12,
   "do_not_use": false,
   "do_not_use_reason": "",
   "canonical_rotation": {
@@ -13,62 +13,61 @@
   "physics_quality": 1.0,
   "asset_bundle_sizes": {
     "Windows": 0,
-    "Darwin": 68064,
+    "Darwin": 67798,
     "Linux": 0
   },
   "bounds": {
     "center": {
       "x": 0.0,
-      "y": -0.0002913475,
-      "z": -0.110929012
+      "y": -6.991625E-05,
+      "z": -0.0266229585
     },
     "front": {
       "x": 0.0,
-      "y": -0.0002913475,
-      "z": -0.080929012
+      "y": -6.991625E-05,
+      "z": 0.0400447175
     },
     "back": {
       "x": 0.0,
-      "y": -0.0002913475,
-      "z": -0.140929012
+      "y": -6.991625E-05,
+      "z": -0.0932906345
     },
     "right": {
-      "x": 0.4,
-      "y": -0.0002913475,
-      "z": -0.110929012
+      "x": 0.3059683,
+      "y": -6.991625E-05,
+      "z": -0.0266229585
     },
     "left": {
-      "x": -0.4,
-      "y": -0.0002913475,
-      "z": -0.110929012
+      "x": -0.3059683,
+      "y": -6.991625E-05,
+      "z": -0.0266229585
     },
     "top": {
       "x": 0.0,
-      "y": 0.9997086525,
-      "z": -0.110929012
+      "y": 0.689998031,
+      "z": -0.0266229585
     },
     "bottom": {
       "x": 0.0,
-      "y": -1.0002913475,
-      "z": -0.110929012
+      "y": -0.690137863,
+      "z": -0.0266229585
     }
   },
   "substructure": [
     {
       "name": "default",
       "materials": [
-        "Material.001",
-        "Metal"
+        "defaultMat"
       ]
     }
   ],
   "composite_object": false,
-  "volume": 0.096,
+  "volume": 33.5796852,
   "container_shapes": [],
   "name": "door",
   "urls": {
-    "Windows": "file:////Users/songshe/ai2thor/tdw_import_md/output_fbx/door/Windows/door",
-    "Darwin": "file:////Users/songshe/ai2thor/tdw_import_md/output_fbx/door/Darwin/door",
-    "Linux": "file:////Users/songshe/ai2thor/tdw_import_md/output_fbx/door/Linux/door"
+    "Windows": "file:////Users/songshe/objaverse_import/reconstruction/ToS-vision-scenes/models/model_import/model_record/door/Windows/door",
+    "Darwin": "file:////Users/songshe/objaverse_import/reconstruction/ToS-vision-scenes/models/model_import/model_record/door/Darwin/door",
+    "Linux": "file:////Users/songshe/objaverse_import/reconstruction/ToS-vision-scenes/models/model_import/model_record/door/Linux/door"
   }
 }

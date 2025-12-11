@@ -18,12 +18,8 @@ textures. Download the full asset pack from Hugging Face and unpack it here:
 
 ```bash
 cd tos_data_gen/models/model_import
-# Requires git-lfs; see https://huggingface.co/docs/hub/models-git-lfs
-huggingface-cli login               # if needed
-huggingface-cli download \
-  yw12356/ToS_model_lib \
-  --repo-type dataset \
-  --local-dir model_lib
+# Python helper (uses huggingface_hub.snapshot_download; no git-lfs required)
+python download.py   # writes to model_lib/
 ```
 
 Each category has the structure `model_lib/<category>/<model_name>/source/*` with the
@@ -42,7 +38,7 @@ of the expected assets [[source](https://huggingface.co/datasets/yw12356/ToS_mod
 ## Batch usage
 
 After downloading the models, run the provided shell script to generate every bundle
-and refresh the JSON metadata:
+and refresh the JSON metadata (may take hours; ~250 models, 1–2 min each):
 
 ```bash
 cd /Users/songshe/objaverse_import
@@ -61,6 +57,15 @@ This command will:
 3. Build the standalone door asset and copy its `record.json` to
    `tos_data_gen/models/door_record.json` (consumed by `mask2scene.py` via
    `scene_generation.door_record_path` in `config.yaml`).
+
+Quick alternative (all defaults, includes door):
+```bash
+cd /Users/songshe/objaverse_import/reconstruction/ToS-vision-scenes/models/model_import
+python build_bundles.py \
+  --unity-path "/Applications/Unity/Unity.app/Contents/MacOS/Unity" \
+  --build-door
+```
+Run the scene pipeline only after bundling is finished.
 
 ## Advanced usage
 
