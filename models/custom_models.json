@@ -1,0 +1,4790 @@
+[
+  {
+    "name": "scooter",
+    "model_name": "scooter1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter4",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter7",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter8",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter9",
+    "scale": 0.007,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter10",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop5",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop8",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop10",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "television",
+    "model_name": "television1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "television"
+  },
+  {
+    "name": "television",
+    "model_name": "television2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "television"
+  },
+  {
+    "name": "televison",
+    "model_name": "television3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "television"
+  },
+  {
+    "name": "televison",
+    "model_name": "television4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "television"
+  },
+  {
+    "name": "television",
+    "model_name": "television5",
+    "scale": 0.007,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "television"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "toy_truck10",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane1",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane4",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane8",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane10",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack2",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack5",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack6",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack7",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack8",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike4",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike7",
+    "scale": 0.005,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike8",
+    "scale": 0.005,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike9",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike10",
+    "scale": 0.006,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair5",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair7",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair8",
+    "scale": 0.005,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair9",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair10",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair11",
+    "scale": 0.005,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair12",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "shoppingcart",
+    "model_name": "shoppingcart1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoppingcart"
+  },
+  {
+    "name": "shoppingcart",
+    "model_name": "shoppingcart2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoppingcart"
+  },
+  {
+    "name": "shoppingcart",
+    "model_name": "shoppingcart4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoppingcart"
+  },
+  {
+    "name": "shoppingcart",
+    "model_name": "shoppingcart5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoppingcart"
+  },
+  {
+    "name": "shoppingcart",
+    "model_name": "shoppingcart6",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoppingcart"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes1",
+    "scale": 0.014,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes2",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes3",
+    "scale": 0.014,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes4",
+    "scale": 0.014,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes5",
+    "scale": 0.014,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes6",
+    "scale": 0.016,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "teddybear",
+    "model_name": "teddybear1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "teddybear"
+  },
+  {
+    "name": "teddybear",
+    "model_name": "teddybear2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "teddybear"
+  },
+  {
+    "name": "teddybear",
+    "model_name": "teddybear3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "teddybear"
+  },
+  {
+    "name": "rubberduck",
+    "model_name": "rubberduck1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "rubberduck"
+  },
+  {
+    "name": "rubberduck",
+    "model_name": "rubberduck2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "rubberduck"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket1",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket2",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket5",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket6",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket7",
+    "scale": 0.018,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket8",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket9",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "basket",
+    "model_name": "basket10",
+    "scale": 0.018,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "basket"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf1",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf2",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf5",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf6",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf7",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf8",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "shelf",
+    "model_name": "shelf10",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "shelf"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge1",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge2",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge3",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge4",
+    "scale": 0.016,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge5",
+    "scale": 0.016,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge6",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge7",
+    "scale": 0.016,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge8",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge9",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "fridge",
+    "model_name": "fridge10",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "fridge"
+  },
+  {
+    "name": "cabinet",
+    "model_name": "cabinet1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "cabinet"
+  },
+  {
+    "name": "cabinet",
+    "model_name": "cabinet2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "cabinet"
+  },
+  {
+    "name": "cabinet",
+    "model_name": "cabinet3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "cabinet"
+  },
+  {
+    "name": "cabinet",
+    "model_name": "cabinet4",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "cabinet"
+  },
+  {
+    "name": "cabinet",
+    "model_name": "cabinet5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "cabinet"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow1",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow2",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow5",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow6",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow8",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "pillow",
+    "model_name": "pillow10",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "pillow"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle1",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle2",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle6",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle7",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle8",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle9",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "candle",
+    "model_name": "candle10",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "candle"
+  },
+  {
+    "name": "books",
+    "model_name": "books1",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books2",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books5",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books6",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books7",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books8",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books9",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "books",
+    "model_name": "books10",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "books"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine1",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine2",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine3",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine4",
+    "scale": 0.015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine5",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "wine",
+    "model_name": "wine6",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "wine"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can4",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can6",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can7",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "soda can",
+    "model_name": "soda_can8",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "soda_can"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp2",
+    "scale": 0.011,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp4",
+    "scale": 0.013,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp8",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp9",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "lamp",
+    "model_name": "lamp10",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "lamp"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase4",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase6",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase7",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase8",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase9",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "vase",
+    "model_name": "vase10",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "vase"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant4",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant5",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant6",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant7",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant8",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant9",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "plant",
+    "model_name": "plant10",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "plant"
+  },
+  {
+    "name": "table",
+    "model_name": "table1",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table3",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table4",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table5",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table6",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table7",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table8",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table9",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "table",
+    "model_name": "table10",
+    "scale": 0.006,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "table"
+  },
+  {
+    "name": "laptop",
+    "model_name": "laptop11",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "laptop"
+  },
+  {
+    "name": "cat",
+    "model_name": "cat1",
+    "scale": 0.8,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "cat_and_dog"
+  },
+  {
+    "name": "cat",
+    "model_name": "cat2",
+    "scale": 0.001,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "cat_and_dog"
+  },
+  {
+    "name": "dog",
+    "model_name": "dog1",
+    "scale": 0.0015,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0,
+      "y": 180,
+      "z": 0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "cat_and_dog"
+  },
+  {
+    "name": "dog",
+    "model_name": "dog2",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "cat_and_dog"
+  },
+  {
+    "name": "toilet",
+    "model_name": "toilet1",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "toilet"
+  },
+  {
+    "name": "toilet",
+    "model_name": "toilet2",
+    "scale": 0.002,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "toilet"
+  },
+  {
+    "name": "toilet",
+    "model_name": "toilet3",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "toilet"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap6",
+    "scale": 0.00035,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0,
+      "y": 180,
+      "z": 0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "cap",
+    "model_name": "cap7",
+    "scale": 0.3,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "cap"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes7",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes8",
+    "scale": 0.002,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "shoes",
+    "model_name": "shoes9",
+    "scale": 0.2,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "shoes"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane11",
+    "scale": 0.0008,
+    "default_position": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "airplane",
+    "model_name": "airplane13",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "airplane"
+  },
+  {
+    "name": "scooter",
+    "model_name": "scooter11",
+    "scale": 0.004,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "scooter"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike11",
+    "scale": 0.005,
+    "default_position": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "bike",
+    "model_name": "bike12",
+    "scale": 0.0035,
+    "default_position": {
+      "x": 0,
+      "y": 0.06,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 310.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "bike"
+  },
+  {
+    "name": "teddybear",
+    "model_name": "teddybear4",
+    "scale": 0.006,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "teddybear"
+  },
+  {
+    "name": "teddybear",
+    "model_name": "teddybear5",
+    "scale": 0.22,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "teddybear"
+  },
+  {
+    "name": "truck",
+    "model_name": "truck11",
+    "scale": 0.0006,
+    "default_position": {
+      "x": 0,
+      "y": 0.2,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "truck",
+    "model_name": "truck12",
+    "scale": 2.0,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "truck"
+  },
+  {
+    "name": "teapot",
+    "model_name": "teapot1",
+    "scale": 0.0015,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "teapot_and_kettle"
+  },
+  {
+    "name": "teapot",
+    "model_name": "teapot4",
+    "scale": 0.0012,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "teapot_and_kettle"
+  },
+  {
+    "name": "rubberduck",
+    "model_name": "rubberduck3",
+    "scale": 0.012,
+    "default_position": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "rubberduck"
+  },
+  {
+    "name": "rubberduck",
+    "model_name": "rubberduck4",
+    "scale": 0.12,
+    "default_position": {
+      "x": 0,
+      "y": 0.1,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0,
+      "y": 180,
+      "z": 0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "rubberduck"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair13",
+    "scale": 0.008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "chair",
+    "model_name": "chair14",
+    "scale": 0.02,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "chair"
+  },
+  {
+    "name": "desklamp",
+    "model_name": "desklamp2",
+    "scale": 0.1,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "lamp"
+  },
+  {
+    "name": "desklamp",
+    "model_name": "desklamp3",
+    "scale": 0.075,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 270.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "lamp"
+  },
+  {
+    "name": "lego man",
+    "model_name": "lego1",
+    "scale": 0.0025,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "lego"
+  },
+  {
+    "name": "lego man",
+    "model_name": "lego3",
+    "scale": 0.04,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 180.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "lego"
+  },
+  {
+    "name": "lego man",
+    "model_name": "lego4",
+    "scale": 0.016,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "lego"
+  },
+  {
+    "name": "backpack",
+    "model_name": "backpack9",
+    "scale": 0.004,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "backpack"
+  },
+  {
+    "name": "washing_machine",
+    "model_name": "washing_machine1",
+    "scale": 0.007,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "washing_machine"
+  },
+  {
+    "name": "washing_machine",
+    "model_name": "washing_machine3",
+    "scale": 0.0008,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": false,
+    "category": "washing_machine"
+  },
+  {
+    "name": "alarmclock",
+    "model_name": "alarm_clock1",
+    "scale": 0.036,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "alarm_clock"
+  },
+  {
+    "name": "mug",
+    "model_name": "mug2",
+    "scale": 0.01,
+    "default_position": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "default_rotation": {
+      "x": 0.0,
+      "y": 90.0,
+      "z": 0.0
+    },
+    "color": null,
+    "record": null,
+    "has_orientation": true,
+    "category": "mug"
+  }
+]

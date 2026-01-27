@@ -1,0 +1,85 @@
+{
+  "wnid": "",
+  "wcategory": "",
+  "scale_factor": 0.12,
+  "do_not_use": false,
+  "do_not_use_reason": "",
+  "canonical_rotation": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "flex": false,
+  "physics_quality": 1.0,
+  "asset_bundle_sizes": {
+    "Windows": 0,
+    "Darwin": 562495,
+    "Linux": 0
+  },
+  "bounds": {
+    "center": {
+      "x": -10.9257259,
+      "y": 14.4642391,
+      "z": 4.01940155
+    },
+    "front": {
+      "x": -10.9257259,
+      "y": 14.4642391,
+      "z": 9.170607
+    },
+    "back": {
+      "x": -10.9257259,
+      "y": 14.4642391,
+      "z": -1.131804
+    },
+    "right": {
+      "x": 7.01050758,
+      "y": 14.4642391,
+      "z": 4.01940155
+    },
+    "left": {
+      "x": -28.86196,
+      "y": 14.4642391,
+      "z": 4.01940155
+    },
+    "top": {
+      "x": -10.9257259,
+      "y": 28.9284782,
+      "z": 4.01940155
+    },
+    "bottom": {
+      "x": -10.9257259,
+      "y": 0.0,
+      "z": 4.01940155
+    }
+  },
+  "substructure": [
+    {
+      "name": "DOOR_METAL",
+      "materials": [
+        "DefaultMaterial"
+      ]
+    },
+    {
+      "name": "DOOR_METAL_1",
+      "materials": [
+        "DefaultMaterial"
+      ]
+    },
+    {
+      "name": "DOOR_METAL_2",
+      "materials": [
+        "DefaultMaterial"
+      ]
+    }
+  ],
+  "composite_object": false,
+  "volume": 607348.6,
+  "container_shapes": [],
+  "name": "door_new_test",
+  "urls": {
+    "Windows": "file:////Users/songshe/objaverse_import/ToS2/multi_room_gen_publish/models/model_import/model_record/door_new_test/Windows/door_new_test",
+    "Darwin": "file:////Users/songshe/objaverse_import/ToS2/multi_room_gen_publish/models/model_import/model_record/door_new_test/Darwin/door_new_test",
+    "Linux": "file:////Users/songshe/objaverse_import/ToS2/multi_room_gen_publish/models/model_import/model_record/door_new_test/Linux/door_new_test"
+  }
+}

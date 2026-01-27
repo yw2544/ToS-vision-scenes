@@ -1,0 +1,78 @@
+# Multiroom Scene Generator Configuration
+# =====================================
+
+# VAGEN Paths
+vagen_paths:
+  root: "./VAGEN"
+  base: "./VAGEN/vagen/env/spatial/Base"
+
+# Model Import Settings
+model_import:
+  # recommandation: use the 2020.3.24f1c2 version of Unity Editor
+  unity_path: "/Applications/Unity/Unity.app/Contents/MacOS/Unity"
+
+# Room Layout Generation Settings (VAGEN)
+room_layout:
+  # VAGEN parameters
+  room_size_tuple: [6, 6]           # Size of each room (width, height)
+  room_num: 4                       # Number of rooms
+  n_objects: 4                      # Objects per room (total = n_objects * room_num)
+  topology: 2                       # Topology: 0=main connects to 1 room, 1=main connects to 2 rooms
+  seed: 0                          # Random seed (will be overridden by batch settings)
+
+# Object Generation Settings (for scene generation, not mask generation)
+object_generation:
+  total_objects: 16                # Total objects across all rooms
+  fix_object_n: [4, 4, 4, 4]           # Per-room object count (for mode="fixed")
+  
+# Scene Generation Settings
+scene_generation:
+  # TDW Settings
+  port: 1075                  # TDW communication port
+  
+  # Object Settings
+  overall_scale: 0.6        # Overall scale multiplier for objects
+  
+  # Model Settings (New JSON-based system)
+  builtin_models_path: "./models/builtin_models.json"  # Path to built-in models JSON
+  custom_models_path: "./models/custom_models.json"  # Path to custom models JSON
+  door_record_path: "./models/door_record.json"  # Path to door record JSON
+
+# Batch Generation Settings
+batch:
+  num_runs: 25              # Number of remaining runs (100-44=56)
+  seed_start: 0              # Starting seed for run01 (test the failing case)
+  seed_increment: 1      # Increment between seeds
+  run_offset: 0           # Start from run01
+
+# Output Settings
+output:
+  base_dir: "./tos_dataset_0127_4room_25runs"        # Base output directory
+  save_mask: true             # Save generated mask files
+  save_layout_debug: true     # Save layout generation debug info
+  save_scene_metadata: true   # Save scene generation metadata
+  save_topdown_map: true      # Save topdown_map into meta_data.json (transform TDW coordinates to mask indices)
+
+# Text-based Validity Settings (for TextBase alignment)
+text_based_validity:
+  # Pre-render validation using VAGEN EvaluationManager
+  eval_tasks:                # Task configurations for validation
+    - task_type: "dir"           # Direction task
+      num: 1                     # Number of this task type
+    - task_type: "pov"           # Point of view task
+      num: 1
+    - task_type: "bwd_pov_text"  # Backward POV
+      num: 1
+    - task_type: "fwd_fov"       # Forward field of view task
+      num: 1
+    - task_type: "bwd_nav_text"  # Backward navigation
+      num: 1
+    - task_type: "e2a"           # Egocentric to allocentric task
+      num: 1
+    - task_type: "rot"           # Rotation task
+      num: 1
+    - task_type: "fwd_loc"       # Forward localization task
+      num: 1
+    - task_type: "bwd_loc_text"  # Backward localization 
+      num: 1
+

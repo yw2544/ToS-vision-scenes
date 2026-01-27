@@ -1,0 +1,14 @@
+# Python cache
+__pycache__/
+
+# Generated datasets (large output files)
+tos_dataset_*/
+
+# Logs
+*.log
+
+# Temporary files
+_temp/
+.cache/
+
+
