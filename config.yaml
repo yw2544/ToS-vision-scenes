@@ -1,29 +1,48 @@
-# Multiroom Scene Generator Configuration
-# =====================================
+# ToS-vision-scenes Configuration
+# =================================
+# Visual scene generation pipeline for Theory of Space
+# GitHub: https://github.com/williamzhangNU/Theory-of-Space
 
-# VAGEN Paths
-vagen_paths:
-  root: "./VAGEN"
-  base: "./VAGEN/vagen/env/spatial/Base"
+# Theory-of-Space Paths
+# These paths assume this module is at Theory-of-Space/ToS-vision-scenes/
+tos_paths:
+  root: ".."                                    # Theory-of-Space repo root
+  base: "../vagen/env/spatial/Base"             # Spatial environment base
 
 # Model Import Settings
 model_import:
-  # recommandation: use the 2020.3.24f1c2 version of Unity Editor
-  unity_path: "/Applications/Unity/Unity.app/Contents/MacOS/Unity"
+  # Unity Editor path - required for building asset bundles
+  # Recommended version: Unity 2020.3.48 (installed via Unity Hub)
+  # Platform-specific paths:
+  #   macOS: /Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity
+  #   Windows: C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe
+  #   Linux: /path/to/Unity/Editor/Unity
+  unity_path: ""
 
-# Room Layout Generation Settings (VAGEN)
+# Room Layout Generation Settings
+# ================================
+# Standard configurations:
+#   2-room: room_num=2, topology=0, total_objects=8,  fix_object_n=[4,4]
+#   3-room: room_num=3, topology=1, total_objects=12, fix_object_n=[4,4,4]
+#   4-room: room_num=4, topology=2, total_objects=16, fix_object_n=[4,4,4,4]
+#
+# Topology defines room connections:
+#   0 = linear (main room connects to 1 adjacent room)
+#   1 = T-shape (main room connects to 2 adjacent rooms)
+#   2 = cross (main room connects to 3 adjacent rooms)
+#   3 = loop/ring structure
+
 room_layout:
-  # VAGEN parameters
   room_size_tuple: [6, 6]           # Size of each room (width, height)
-  room_num: 4                       # Number of rooms
+  room_num: 3                       # Number of rooms (2, 3, or 4)
   n_objects: 4                      # Objects per room (total = n_objects * room_num)
-  topology: 2                       # Topology: 0=main connects to 1 room, 1=main connects to 2 rooms
-  seed: 0                          # Random seed (will be overridden by batch settings)
+  topology: 1                       # See topology options above
+  seed: 0                           # Random seed (overridden by batch settings)
 
-# Object Generation Settings (for scene generation, not mask generation)
+# Object Generation Settings
 object_generation:
-  total_objects: 16                # Total objects across all rooms
-  fix_object_n: [4, 4, 4, 4]           # Per-room object count (for mode="fixed")
+  total_objects: 12                 # Total objects across all rooms
+  fix_object_n: [4, 4, 4]           # Per-room object count (must match room_num)
   
 # Scene Generation Settings
 scene_generation:
@@ -40,14 +59,14 @@ scene_generation:
 
 # Batch Generation Settings
 batch:
-  num_runs: 25              # Number of remaining runs (100-44=56)
+  num_runs: 1              # Number of remaining runs (100-44=56)
   seed_start: 0              # Starting seed for run01 (test the failing case)
   seed_increment: 1      # Increment between seeds
   run_offset: 0           # Start from run01
 
 # Output Settings
 output:
-  base_dir: "./tos_dataset_0127_4room_25runs"        # Base output directory
+  base_dir: "./tos_dataset"        # Base output directory
   save_mask: true             # Save generated mask files
   save_layout_debug: true     # Save layout generation debug info
   save_scene_metadata: true   # Save scene generation metadata

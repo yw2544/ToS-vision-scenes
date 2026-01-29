@@ -1,37 +1,107 @@
-# ToS Data Generation Pipeline
+# ToS-vision-scenes
 
-This module provides a complete "VAGEN Mask → TDW Scene" pipeline for generating multi-room spatial reasoning datasets. It includes:
+Visual scene generation module for [Theory of Space](https://github.com/williamzhangNU/Theory-of-Space). This module generates multi-room 3D environments using TDW (ThreeDWorld) for spatial reasoning experiments.
 
-- **Room layout generation** via VAGEN RoomGenerator
-- **Custom model support** (asset bundles built from `models/model_import`)
+> **Note**: This module is part of the Theory-of-Space repository, located at `Theory-of-Space/ToS-vision-scenes/`.
+
+## Features
+
+- **Room layout generation** via Theory-of-Space spatial environment
+- **Custom 3D model support** (asset bundles built from `models/model_import`)
 - **Scene validation** (orientation tasks, navigation tasks, etc.)
-- **False-belief experiment generation** for existing runs
+- **False-belief experiment generation** for belief updating tasks
 
 ---
 
-## 1. Prerequisites
+## 1. Installation
 
-| Requirement | Notes |
-|-------------|-------|
-| **Python 3.10+** | Recommended to use conda environment with VAGEN dependencies |
-| **TDW** | TDW Python package plus a Unity build of TDW 1.12+ |
-| **Unity Editor** | Required for asset bundle creation (**recommended: 2020.3.24f1c2**) |
-| **`assimp` CLI** | Used to convert FBX to OBJ (`brew install assimp`) |
-| **VAGEN repository** | Clone the VAGEN repo; set paths in `config.yaml` |
-| **Git LFS** | Needed to download the model library from Hugging Face |
+> **Note**: `ToS-vision-scenes` is a git submodule of Theory-of-Space. When cloning the main repository, use `--recursive` to include it:
+> ```bash
+> git clone --recursive https://github.com/williamzhangNU/Theory-of-Space.git
+> ```
+> Or if already cloned, run: `git submodule update --init --recursive`
+
+### Step 0: Set up Theory-of-Space (prerequisite)
+
+This step assumes you have already cloned and set up the main Theory-of-Space repository:
+
+```bash
+cd Theory-of-Space
+source setup.sh
+```
+
+This creates the `tos` conda environment with all base dependencies.
+
+### Step 1: Install ToS-vision-scenes dependencies
+
+```bash
+conda activate tos
+cd ToS-vision-scenes
+source setup.sh
+```
+
+This installs additional packages (TDW, huggingface_hub) required for visual scene generation.
 
 ---
 
-## 2. Model Import (First Step)
+## 2. Unity Setup (Required for Custom Models)
 
-Before running the pipeline, you must download the model assets and build TDW asset bundles.
+TDW requires Unity Editor to build custom model asset bundles.
 
-### 2.1 Download raw meshes
+### 2.1 Install Unity Hub
+
+Download and install [Unity Hub](https://unity.com/download).
+
+### 2.2 Install Unity Editor
+
+Install Unity **2020.3.48** via Unity Hub. When installing, add build support for your target platforms (Windows, macOS, Linux).
+
+### 2.3 Platform-specific dependencies
+
+<details>
+<summary><b>macOS</b></summary>
+
+```bash
+# assimp - for FBX to OBJ conversion
+brew install assimp
+```
+
+</details>
+
+<details>
+<summary><b>Linux</b></summary>
+
+```bash
+# Required packages
+sudo apt install libgconf-2-4
+
+# From ubuntu-toolchain ppa
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt install gcc-9 libstdc++6
+```
+
+For headless Linux servers, see [TDW Linux setup guide](https://github.com/threedworld-mit/tdw/blob/master/Documentation/lessons/setup/linux.md).
+
+</details>
+
+<details>
+<summary><b>Windows</b></summary>
+
+- [Visual C++ 2012 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=30679)
+
+</details>
+
+---
+
+## 3. Model Import
+
+Before running the pipeline, download model assets and build TDW asset bundles.
+
+### 3.1 Download raw meshes
 
 ```bash
 cd models/model_import
 
-# Requires git-lfs
 huggingface-cli login               # if needed
 huggingface-cli download \
   yw12356/ToS_model_lib \
@@ -41,23 +111,18 @@ huggingface-cli download \
 
 Dataset preview: https://huggingface.co/datasets/yw12356/ToS_model_lib
 
-Each category has the structure:
-```
-model_lib/<category>/<model_name>/source/*   # .fbx or .obj/.mtl + textures
-```
+### 3.2 Configure Unity path
 
-### 2.2 Configure Unity path
-
-In `config.yaml`, set the Unity Editor path:
+Edit `config.yaml` to set your Unity Editor path:
 
 ```yaml
 model_import:
-  unity_path: "/Applications/Unity/Unity.app/Contents/MacOS/Unity"
+  unity_path: "/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity"  # macOS
+  # unity_path: "C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe"  # Windows
+  # unity_path: "/path/to/Unity/Editor/Unity"  # Linux
 ```
 
-**Note**: Recommended Unity version is **2020.3.24f1c2** for best compatibility with TDW model import.
-
-### 2.3 Build TDW asset bundles
+### 3.3 Build asset bundles
 
 ```bash
 cd models/model_import
@@ -65,49 +130,42 @@ chmod +x build_all_bundles.sh
 ./build_all_bundles.sh
 ```
 
-This will:
-1. Read `unity_path` from `config.yaml`
-2. Build all custom objects under `model_lib/`
-3. Update `models/custom_models.json` with record paths
-4. Build the door asset and output to `models/door_record.json`
-
-### 2.4 Advanced model import options
-
-Rebuild specific models only:
-```bash
-python build_bundles.py --only-model chair7 --only-model lamp2
-```
-
-Rebuild door only:
-```bash
-python build_bundles.py --door-only --door-root model_lib/door --door-record-json ../door_record.json
-```
-
-For more details, see `models/model_import/README.md`.
+For more options, see `models/model_import/README.md`.
 
 ---
 
-## 3. Configure Paths
+## 4. Configuration
 
-Edit `config.yaml` to set VAGEN and model paths:
+Edit `config.yaml` to configure the pipeline:
 
 ```yaml
-vagen_paths:
-  root: "/path/to/VAGEN"
-  base: "/path/to/VAGEN/vagen/env/spatial/Base"
+# Theory-of-Space paths (relative to this module)
+tos_paths:
+  root: ".."                           # Theory-of-Space repo root
+  base: "../vagen/env/spatial/Base"    # Spatial environment base
 
-model_import:
-  unity_path: "/Applications/Unity/Unity.app/Contents/MacOS/Unity"
+# Room layout settings
+room_layout:
+  room_size_tuple: [6, 6]    # Room dimensions
+  room_num: 4                # Number of rooms
+  n_objects: 4               # Objects per room
+  topology: 2                # Connection pattern
 
+# Scene generation
 scene_generation:
-  builtin_models_path: "./models/builtin_models.json"
-  custom_models_path: "./models/custom_models.json"
-  door_record_path: "./models/door_record.json"
+  port: 1071                 # TDW port
+  overall_scale: 0.6         # Object scale
+
+# Batch settings
+batch:
+  num_runs: 25
+  seed_start: 0
+  seed_increment: 1
 ```
 
 ---
 
-## 4. Running the Pipeline
+## 5. Running the Pipeline
 
 ### Basic usage
 
@@ -127,39 +185,22 @@ python generate_pipeline.py --config config.yaml --output ./my_dataset
 | Argument | Description |
 |----------|-------------|
 | `--config` | Path to YAML config (default: `config.yaml`) |
-| `--output` | Override `output.base_dir` from config |
+| `--output` | Override output directory |
 | `--layout-only` | Generate layouts only, skip TDW rendering |
-| `--skip-validation` | Skip config file validation |
+| `--skip-validation` | Skip config validation |
 
 ---
 
-## 5. False-Belief Experiment Mode
+## 6. False-Belief Experiment Mode
 
-After generating normal scene data, you can use this mode to create false-belief experiment data for VAGEN's agent belief updating tasks. This mode modifies existing scenes by moving or rotating objects, simulating scenarios where an agent's belief about object locations becomes outdated.
+Generate modified scenes for belief updating experiments. This mode modifies existing scenes by moving or rotating objects.
 
-### What it does
-
-1. Reads existing `meta_data.json` from each run
-2. Uses VAGEN's `ObjectModifier` to apply changes (move or rotate objects)
-3. Generates `falsebelief_exp.json` with the modified scene metadata
-4. Optionally renders the modified scenes with TDW
-
-### Basic usage
+### Usage
 
 ```bash
 python generate_pipeline.py --config config.yaml \
   --falsebelief-exp \
-  --fb-runs-root /path/to/existing_dataset \
-  --fb-runs 0-24 \
-  --fb-render
-```
-
-### Full example with all options
-
-```bash
-python generate_pipeline.py --config config.yaml \
-  --falsebelief-exp \
-  --fb-runs-root ./tos_dataset_2room_25runs \
+  --fb-runs-root ./tos_dataset_output \
   --fb-runs 0-24 \
   --fb-meta-name falsebelief_exp.json \
   --fb-mod-type auto \
@@ -173,40 +214,23 @@ python generate_pipeline.py --config config.yaml \
 
 | Argument | Description | Default |
 |----------|-------------|---------|
-| `--falsebelief-exp` | Enable false-belief mode | (required flag) |
-| `--fb-runs-root` | Root directory containing runXX folders | (required) |
-| `--fb-runs` | Run range in format `start-end` | `0-24` |
-| `--fb-meta-name` | Output filename for modified metadata | `falsebelief_exp.json` |
-| `--fb-mod-type` | Modification type: `auto`, `move`, or `rotate` | `auto` |
-| `--fb-render` | Render modified scenes after generating metadata | (flag) |
-| `--fb-suffix` | Suffix for rendered images | `_fbexp` |
-| `--fb-port` | TDW port for rendering | `1071` |
-| `--fb-builtin-models-path` | Override builtin models path | (from config) |
-| `--fb-custom-models-path` | Override custom models path | (from config) |
-| `--fb-door-record-path` | Override door record path | (from config) |
-
-### Modification types
-
-| Type | Description |
-|------|-------------|
-| `auto` | Automatically choose between move and rotate based on object properties |
-| `move` | Move objects to new positions within the room |
-| `rotate` | Rotate objects to face different directions |
-
-### Output
-
-For each run, the mode generates:
-- `falsebelief_exp.json` - Modified scene metadata with object changes
-- If `--fb-render` is used: rendered images with `_fbexp` suffix (e.g., `agent_facing_north_fbexp.png`)
+| `--falsebelief-exp` | Enable false-belief mode | (flag) |
+| `--fb-runs-root` | Root directory with runXX folders | (required) |
+| `--fb-runs` | Run range (e.g., `0-24`) | `0-24` |
+| `--fb-meta-name` | Output metadata filename | `falsebelief_exp.json` |
+| `--fb-mod-type` | Modification: `auto`, `move`, `rotate` | `auto` |
+| `--fb-render` | Render modified scenes | (flag) |
+| `--fb-suffix` | Image suffix | `_fbexp` |
+| `--fb-port` | TDW port | `1071` |
 
 ### Workflow
 
-1. **First**: Generate normal scene data
+1. Generate normal scene data:
    ```bash
    python generate_pipeline.py --config config.yaml
    ```
 
-2. **Then**: Generate false-belief data for those scenes
+2. Generate false-belief data:
    ```bash
    python generate_pipeline.py --config config.yaml \
      --falsebelief-exp \
@@ -215,82 +239,6 @@ For each run, the mode generates:
      --fb-render
    ```
 
-## 6. Configuration (`config.yaml`)
-
-### VAGEN Paths
-
-```yaml
-vagen_paths:
-  root: "/path/to/VAGEN"           # VAGEN repo root
-  base: "/path/to/VAGEN/vagen/env/spatial/Base"
-```
-
-### Room Layout (`room_layout`)
-
-| Field | Description |
-|-------|-------------|
-| `room_size_tuple` | `[width, height]` per room (e.g., `[6, 6]`) |
-| `room_num` | Number of rooms (e.g., 3 or 4) |
-| `n_objects` | Objects per room |
-| `topology` | Connection pattern: 0=linear, 1=two connections, 2=three connections |
-| `seed` | Base random seed (overridden by batch settings) |
-
-### Object Generation (`object_generation`)
-
-| Field | Description |
-|-------|-------------|
-| `total_objects` | Total objects across all rooms |
-| `fix_object_n` | Per-room object counts (e.g., `[4, 4, 4, 4]`) |
-
-### Scene Generation (`scene_generation`)
-
-| Field | Description |
-|-------|-------------|
-| `port` | TDW controller port |
-| `overall_scale` | Scale factor for objects (e.g., `0.6`) |
-| `builtin_models_path` | Path to built-in models JSON |
-| `custom_models_path` | Path to custom models JSON |
-| `door_record_path` | Path to door record JSON |
-
-### Batch Settings (`batch`)
-
-| Field | Description |
-|-------|-------------|
-| `num_runs` | Number of runs to generate |
-| `seed_start` | Starting seed |
-| `seed_increment` | Seed increment between runs |
-| `run_offset` | Starting index for run folder naming |
-
-**Note**: If a door hash collision is detected for a seed, the pipeline automatically bumps the seed by 11 and regenerates. This offset applies to all subsequent runs.
-
-### Output Settings (`output`)
-
-| Field | Description |
-|-------|-------------|
-| `base_dir` | Root directory for output |
-| `save_mask` | Save generated mask files |
-| `save_layout_debug` | Save layout debug info |
-| `save_scene_metadata` | Save scene metadata |
-| `save_topdown_map` | Save topdown coordinate mapping |
-
-### Validation (`text_based_validity`)
-
-Configure pre-render validation tasks:
-
-```yaml
-text_based_validity:
-  eval_tasks:
-    - task_type: "dir"
-      num: 1
-    - task_type: "pov"
-      num: 1
-    - task_type: "rot"
-      num: 1
-    # ... more tasks
-```
-
-Supported task types: `dir`, `pov`, `bwd_pov_text`, `fwd_fov`, `bwd_nav_text`, `e2a`, `rot`, `fwd_loc`, `bwd_loc_text`
-
 ---
 
 ## 7. Repository Structure
@@ -298,54 +246,53 @@ Supported task types: `dir`, `pov`, `bwd_pov_text`, `fwd_fov`, `bwd_nav_text`, `
 ```
 ToS-vision-scenes/
 ├── generate_pipeline.py          # Main entry point
-├── config.yaml                   # Pipeline configuration
+├── config.yaml                   # Configuration
+├── setup.sh                      # Setup script
+├── setup.py                      # Package setup
+├── requirements.txt              # Additional dependencies
 ├── models/
-│   ├── builtin_models.json       # TDW built-in model catalog
-│   ├── custom_models.json        # Custom model catalog (updated by build script)
-│   ├── door_record.json          # Door asset record (generated by build script)
-│   └── model_import/             # Asset bundle build tools
-│       ├── build_all_bundles.sh  # Build script (reads Unity path from config)
-│       ├── build_bundles.py      # Core build logic
-│       ├── model_lib/            # Downloaded source assets (not in git)
-│       ├── model_record/         # Generated bundles (not in git)
-│       └── README.md
-├── scene/
-│   ├── room_layout_generator.py  # VAGEN mask generation
-│   ├── mask2scene.py             # TDW scene building
-│   ├── mask2scene_enhanced.py    # Enhanced scene builder
-│   ├── falsebelief_render.py     # False-belief rendering
-│   └── ...
-├── multi_room_generator/         # Object generation utilities
+│   ├── builtin_models.json       # TDW built-in models
+│   ├── custom_models.json        # Custom model catalog
+│   ├── door_record.json          # Door asset record
+│   └── model_import/             # Asset bundle tools
+├── scene/                        # Scene generation
+├── multi_room_generator/         # Object generation
 ├── validation/                   # Pre-render validation
-├── utils/                        # Shared utilities
-└── README.md
+└── utils/                        # Utilities
 ```
 
 ---
 
-## 8. Troubleshooting
-
-| Symptom | Solution |
-|---------|----------|
-| `unity_path is missing in config.yaml` | Add `model_import.unity_path` to config.yaml |
-| `record.json missing` during bundle creation | Check Unity Editor path; verify `assimp` produced OBJ/MTL correctly |
-| `module tdw not found` | Install TDW or add to `PYTHONPATH` |
-| Door mesh not appearing | Verify `door_record_path` in config points to valid file |
-| VAGEN import errors | Check `vagen_paths.root` and `vagen_paths.base` in config |
-| Door hash collision warnings | Normal behavior; pipeline auto-bumps seed by 11 |
-| `FBX to OBJ failed` | Check `assimp` is installed (`brew install assimp`) |
-
----
-
-## 9. Output Structure
+## 8. Output Structure
 
 Each run generates:
 
 ```
 runXX/
-├── meta_data.json           # Scene metadata (objects, cameras, doors, etc.)
+├── meta_data.json           # Scene metadata
 ├── top_down_annotated.png   # Annotated top-down view
 ├── top_down.png             # Raw top-down view
 ├── agent_facing_*.png       # Agent perspective images
 └── *_facing_*.png           # Object/door camera images
 ```
+
+---
+
+## 9. Troubleshooting
+
+| Symptom | Solution |
+|---------|----------|
+| `unity_path is missing` | Set `model_import.unity_path` in config.yaml |
+| `record.json missing` | Check Unity path; verify `assimp` installed |
+| `module tdw not found` | Run `pip install tdw` or `source setup.sh` |
+| `tos_paths` errors | Verify Theory-of-Space is properly installed |
+| Door hash collision | Normal; pipeline auto-adjusts seed |
+
+---
+
+## 10. Related Resources
+
+- [Theory-of-Space](https://github.com/williamzhangNU/Theory-of-Space) - Main benchmark repository
+- [TDW Documentation](https://github.com/threedworld-mit/tdw) - ThreeDWorld simulator
+- [TDW Custom Models](https://github.com/threedworld-mit/tdw/blob/master/Documentation/lessons/custom_models/custom_models.md) - Asset bundle creation guide
+- [Model Library](https://huggingface.co/datasets/yw12356/ToS_model_lib) - 3D model assets

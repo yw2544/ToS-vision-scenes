@@ -1,0 +1,10 @@
+# ToS-vision-scenes additional dependencies
+# These are required ON TOP OF Theory-of-Space dependencies
+# Assumes you have already installed Theory-of-Space: pip install -e /path/to/Theory-of-Space
+
+# TDW (ThreeDWorld) - 3D simulation environment
+# https://github.com/threedworld-mit/tdw
+tdw>=1.12.0
+
+# Hugging Face CLI - for downloading model assets
+huggingface_hub>=0.20.0

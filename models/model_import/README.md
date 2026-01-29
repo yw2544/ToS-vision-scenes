@@ -18,7 +18,7 @@ The `model_lib/` directory is not tracked in Git because it contains ~800 meshes
 
 | Requirement | Notes |
 |-------------|-------|
-| **Unity Editor** | Recommended: 2020.3.24f1c2. Set path in `config.yaml` under `model_import.unity_path` |
+| **Unity Editor** | Recommended: **2020.3.48** (via Unity Hub). Set path in `config.yaml` under `model_import.unity_path` |
 | **`assimp` CLI** | For FBX→OBJ conversion. Install via `brew install assimp` |
 | **Python 3.10+** | With TDW's `ModelCreator` module available |
 | **Git LFS** | Required to download models from Hugging Face |
@@ -54,7 +54,7 @@ model_import:
   unity_path: "/Applications/Unity/Unity.app/Contents/MacOS/Unity"
 ```
 
-**Note**: Recommended Unity version is **2020.3.24f1c2** for best compatibility.
+**Note**: Recommended Unity version is **2020.3.48** for best compatibility.
 
 ## Step 3: Build Asset Bundles
 

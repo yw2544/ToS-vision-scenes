@@ -61,20 +61,24 @@ def _check_door_hash_collision(room) -> tuple[bool, int, list]:
     return len(collisions) > 0, len(room.gates), collisions
 
 
-def _get_vagen_paths(config: dict) -> tuple[str | None, str | None]:
-    vagen_cfg = config.get("vagen_paths", {})
-    return vagen_cfg.get("root"), vagen_cfg.get("base")
+def _get_tos_paths(config: dict) -> tuple[str | None, str | None]:
+    """Get Theory-of-Space paths from config (supports both 'tos_paths' and legacy 'vagen_paths')."""
+    # Try new tos_paths first, fallback to legacy vagen_paths
+    tos_cfg = config.get("tos_paths", config.get("vagen_paths", {}))
+    return tos_cfg.get("root"), tos_cfg.get("base")
 
 
-def _configure_vagen_paths(config: dict) -> None:
-    vagen_root, vagen_base = _get_vagen_paths(config)
-    for p in (vagen_root, vagen_base):
+def _configure_tos_paths(config: dict) -> None:
+    """Configure Theory-of-Space paths in sys.path and environment variables."""
+    tos_root, tos_base = _get_tos_paths(config)
+    for p in (tos_root, tos_base):
         if p and p not in sys.path:
             sys.path.insert(0, p)
-    if vagen_root:
-        os.environ.setdefault("VAGEN_ROOT", vagen_root)
-    if vagen_base:
-        os.environ.setdefault("VAGEN_BASE", vagen_base)
+    # Set environment variables (keep VAGEN_* names for backward compatibility with imports)
+    if tos_root:
+        os.environ.setdefault("VAGEN_ROOT", tos_root)
+    if tos_base:
+        os.environ.setdefault("VAGEN_BASE", tos_base)
 
 
 def load_config(config_path: str) -> dict:
@@ -83,7 +87,7 @@ def load_config(config_path: str) -> dict:
         with open(config_path, 'r', encoding='utf-8') as f:
             config = yaml.safe_load(f)
         print(f"Loaded config: {config_path}")
-        _configure_vagen_paths(config)
+        _configure_tos_paths(config)
         return config
     except Exception as e:
         print(f"❌ Failed to load config: {e}")
@@ -200,7 +204,7 @@ def run_scene_generation(config: dict, mask_path: Path, output_dir: Path, scene_
             "physics_settle_time": 0.1,
         }
         fixed_object_mode = "fixed"
-        vagen_root, vagen_base = _get_vagen_paths(config)
+        tos_root, tos_base = _get_tos_paths(config)
         
         # Build command arguments
         cmd = [
@@ -262,10 +266,11 @@ def run_scene_generation(config: dict, mask_path: Path, output_dir: Path, scene_
         
         # Execute command
         env = os.environ.copy()
-        if vagen_root:
-            env["VAGEN_ROOT"] = vagen_root
-        if vagen_base:
-            env["VAGEN_BASE"] = vagen_base
+        # Set environment variables (keep VAGEN_* names for backward compatibility)
+        if tos_root:
+            env["VAGEN_ROOT"] = tos_root
+        if tos_base:
+            env["VAGEN_BASE"] = tos_base
         result = subprocess.run(cmd, check=True, cwd='.', env=env)
         
         if result.returncode == 0:
