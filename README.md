@@ -95,23 +95,15 @@ For headless Linux servers, see [TDW Linux setup guide](https://github.com/three
 
 ## 3. Model Import
 
-Before running the pipeline, download model assets and build TDW asset bundles.
+Before running the pipeline, build TDW asset bundles from the downloaded model assets.
 
-### 3.1 Download raw meshes
+> **Note**: Model assets are automatically downloaded during `source setup.sh`. If you need to re-download manually:
+> ```bash
+> huggingface-cli download yw12356/ToS_model_lib --repo-type dataset --local-dir models/model_import/model_lib
+> ```
+> Dataset preview: https://huggingface.co/datasets/yw12356/ToS_model_lib
 
-```bash
-cd models/model_import
-
-huggingface-cli login               # if needed
-huggingface-cli download \
-  yw12356/ToS_model_lib \
-  --repo-type dataset \
-  --local-dir model_lib
-```
-
-Dataset preview: https://huggingface.co/datasets/yw12356/ToS_model_lib
-
-### 3.2 Configure Unity path
+### 3.1 Configure Unity path
 
 Edit `config.yaml` to set your Unity Editor path:
 
@@ -122,7 +114,7 @@ model_import:
   # unity_path: "/path/to/Unity/Editor/Unity"  # Linux
 ```
 
-### 3.3 Build asset bundles
+### 3.2 Build asset bundles
 
 ```bash
 cd models/model_import

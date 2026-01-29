@@ -454,14 +454,27 @@ def _collect_textures(directory: Path, recursive: bool) -> List[Path]:
 
 
 def ensure_assimp_available() -> None:
+    """Check if assimp is available. Print install instructions if not found."""
+    import platform
     try:
-        result = subprocess.run(["which", "assimp"], capture_output=True, text=True)
+        result = subprocess.run(["assimp", "version"], capture_output=True, text=True)
         if result.returncode == 0:
             return
-        print("[info] assimp not found. Trying to install via Homebrew...")
-        subprocess.run(["brew", "install", "assimp"], check=True)
-    except Exception as exc:
-        print(f"[warn] Unable to verify or install assimp: {exc}")
+    except FileNotFoundError:
+        pass
+    
+    system = platform.system()
+    print("[error] assimp not found. Please install it:")
+    if system == "Darwin":
+        print("  macOS: brew install assimp")
+    elif system == "Linux":
+        print("  Linux: sudo apt install assimp-utils")
+    elif system == "Windows":
+        print("  Windows: Download from https://github.com/assimp/assimp/releases")
+        print("           Or use: choco install assimp")
+    else:
+        print(f"  {system}: Install assimp from https://github.com/assimp/assimp")
+    raise RuntimeError("assimp is required for FBX to OBJ conversion but not installed")
 
 
 def select_source_model_file(source_dir: Path, model_name: str) -> Optional[Path]:

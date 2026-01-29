@@ -32,23 +32,30 @@ conda activate tos
 echo "Installing ToS-vision-scenes dependencies..."
 pip install -r requirements.txt
 
+# Download model assets (public dataset, no login required)
+echo ""
+echo "Downloading model assets from Hugging Face..."
+MODEL_LIB_DIR="$SCRIPT_DIR/models/model_import/model_lib"
+if [ ! -d "$MODEL_LIB_DIR" ]; then
+  huggingface-cli download yw12356/ToS_model_lib --repo-type dataset --local-dir "$MODEL_LIB_DIR"
+  echo "Model library downloaded to $MODEL_LIB_DIR"
+else
+  echo "Model library already exists at $MODEL_LIB_DIR, skipping download."
+fi
+
 echo ""
 echo "============================================="
 echo "ToS-vision-scenes setup complete!"
 echo "============================================="
 echo ""
 echo "Next steps:"
-echo "1. Download model assets:"
-echo "   cd models/model_import"
-echo "   huggingface-cli download yw12356/ToS_model_lib --repo-type dataset --local-dir model_lib"
-echo ""
-echo "2. Configure Unity path in config.yaml:"
+echo "1. Configure Unity path in config.yaml:"
 echo "   model_import:"
 echo "     unity_path: \"/path/to/Unity\""
 echo ""
-echo "3. Build asset bundles:"
+echo "2. Build asset bundles:"
 echo "   cd models/model_import && ./build_all_bundles.sh"
 echo ""
-echo "4. Run the pipeline:"
+echo "3. Run the pipeline:"
 echo "   python generate_pipeline.py --config config.yaml"
 echo ""
