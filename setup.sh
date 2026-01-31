@@ -33,15 +33,15 @@ echo "Installing ToS-vision-scenes dependencies..."
 pip install -r requirements.txt
 
 # Download model assets (public dataset, no login required)
+export HF_HOME=/home/pingyue/.cache/huggingface
+export HF_HUB_CACHE=$HF_HOME/hub
+export HF_DATASETS_CACHE=$HF_HOME/datasets
+export XDG_CACHE_HOME=/home/pingyue/.cache
+export HF_TOKEN= # avoid 429 rate limit
 echo ""
-echo "Downloading model assets from Hugging Face..."
 MODEL_LIB_DIR="$SCRIPT_DIR/models/model_import/model_lib"
-if [ ! -d "$MODEL_LIB_DIR" ]; then
-  huggingface-cli download yw12356/ToS_model_lib --repo-type dataset --local-dir "$MODEL_LIB_DIR"
-  echo "Model library downloaded to $MODEL_LIB_DIR"
-else
-  echo "Model library already exists at $MODEL_LIB_DIR, skipping download."
-fi
+echo "Downloading model assets from Hugging Face... into $MODEL_LIB_DIR"
+hf download yw12356/ToS_model_lib --repo-type dataset --local-dir "$MODEL_LIB_DIR"
 
 echo ""
 echo "============================================="
