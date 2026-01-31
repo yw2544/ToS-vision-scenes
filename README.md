@@ -80,7 +80,7 @@ sudo add-apt-repository ppa:ubuntu-toolchain-r/test
 sudo apt install gcc-9 libstdc++6
 ```
 
-For headless Linux servers, see [TDW Linux setup guide](https://github.com/threedworld-mit/tdw/blob/master/Documentation/lessons/setup/linux.md).
+For headless Linux servers, see [TDW Linux setup guide](https://github.com/threedworld-mit/tdw/blob/master/Documentation/lessons/setup/server.md).
 
 </details>
 
