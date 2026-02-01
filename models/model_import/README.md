@@ -19,11 +19,15 @@ The `model_lib/` directory is not tracked in Git because it contains ~800 meshes
 | Requirement | Notes |
 |-------------|-------|
 | **Unity Editor** | Recommended: **2020.3.48** (via Unity Hub). Set path in `config.yaml` under `model_import.unity_path` |
-| **`assimp` CLI** | For FBX→OBJ conversion. Install via `brew install assimp` |
+| **`assimp` CLI** | For FBX→OBJ conversion. macOS: `brew install assimp`, Linux: `sudo apt install assimp-utils` |
 | **Python 3.10+** | With TDW's `ModelCreator` module available |
 | **Git LFS** | Required to download models from Hugging Face |
 
-For full guidance on TDW's model import environment, see the [TDW custom models documentation](https://github.com/threedworld-mit/tdw/blob/master/Documentation/lessons/custom_models/custom_models.md).
+For detailed installation instructions (Unity Hub, Unity Editor, platform-specific dependencies), see the [ToS-vision-scenes README](../README.md#2-unity-setup-required-for-custom-models).
+
+For full guidance on asset bundle creation, see:
+- [TDW custom models documentation](https://github.com/threedworld-mit/tdw/blob/master/Documentation/lessons/custom_models/custom_models.md)
+- [Asset Bundle Creator](https://github.com/alters-mit/asset_bundle_creator) - standalone tool for converting source files to Unity asset bundles
 
 ## Step 1: Download Models
 
@@ -47,11 +51,22 @@ model_lib/<category>/<model_name>/source/*   # .fbx or .obj/.mtl + textures
 
 ## Step 2: Configure Unity Path
 
-In `config.yaml` (at repo root), set the Unity Editor path:
+In `config.yaml` (at repo root), set the Unity Editor path. Below are **typical** installation paths (your actual path may vary):
+
+| Platform | Typical Unity Path |
+|----------|-------------------|
+| **macOS** | `/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity` |
+| **Windows** | `C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe` |
+| **Linux** | `$HOME/Unity/Hub/Editor/2020.3.48f1/Editor/Unity` |
+
+Example `config.yaml`:
 
 ```yaml
 model_import:
-  unity_path: "/Applications/Unity/Unity.app/Contents/MacOS/Unity"
+  # Choose ONE of the following based on your platform:
+  unity_path: "/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity"  # macOS
+  # unity_path: "C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe"           # Windows
+  # unity_path: "/home/youruser/Unity/Hub/Editor/2020.3.48f1/Editor/Unity"                 # Linux
 ```
 
 **Note**: Recommended Unity version is **2020.3.48** for best compatibility.
@@ -125,5 +140,6 @@ python build_bundles.py --help
 | `unity_path is missing in config.yaml` | Add `model_import.unity_path` to config.yaml |
 | `unity_path is invalid or not executable` | Check the Unity binary path exists |
 | `record.json missing` | Verify Unity Editor path is valid |
-| `FBX to OBJ failed` | Check `assimp` is installed (`brew install assimp`) |
+| `RuntimeError: scooter1: record.json missing for scooter1` | Check Unity Editor log at `~/.config/unity3d/Editor.log` for detailed error info |
+| `FBX to OBJ failed` | Check `assimp` is installed (macOS: `brew install assimp`, Linux: `sudo apt install assimp-utils`) |
 | `missing MTL file` | Some models may not have materials; this is a warning only |

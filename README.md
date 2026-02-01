@@ -4,6 +4,8 @@ Visual scene generation module for [Theory of Space](https://github.com/williamz
 
 > **Note**: This module is part of the Theory-of-Space repository, located at `Theory-of-Space/ToS-vision-scenes/`.
 
+> **Remote Server Requirement**: If running on a remote server, make sure the server has a **graphical display** attached (not headless). TDW and Unity require a display for rendering. For headless servers, you may need to set up a virtual display (e.g., Xvfb) or use GPU-accelerated remote rendering.
+
 ## Features
 
 - **Room layout generation** via Theory-of-Space spatial environment
@@ -34,6 +36,8 @@ This creates the `tos` conda environment with all base dependencies.
 
 ### Step 1: Install ToS-vision-scenes dependencies
 
+> **Important**: Before running `setup.sh`, add your Hugging Face token in `Theory-of-Space/setup.sh` to enable model downloads. You can get a token from [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens).
+
 ```bash
 conda activate tos
 cd ToS-vision-scenes
@@ -48,15 +52,29 @@ This installs additional packages (TDW, huggingface_hub) required for visual sce
 
 TDW requires Unity Editor to build custom model asset bundles.
 
-### 2.1 Install Unity Hub
+### 2.1 Install Unity Hub & Editor
 
-Download and install [Unity Hub](https://unity.com/download).
+<details>
+<summary><b>Linux /Linux Servers(Recommended: use install.sh)</b></summary>
 
-### 2.2 Install Unity Editor
+The `install.sh` script automatically downloads and installs Unity Hub, Unity Editor 2020.3.48, and all required dependencies:
 
-Install Unity **2020.3.48** via Unity Hub. When installing, add build support for your target platforms (Windows, macOS, Linux).
+```bash
+chmod +x install.sh
+./install.sh
+```
 
-### 2.3 Platform-specific dependencies
+</details>
+
+<details>
+<summary><b>Linux/ macOS / Windows (Manual installation)</b></summary>
+
+1. Download and install [Unity Hub](https://unity.com/download)
+2. Install Unity **2020.3.48** via Unity Hub. When installing, add build support for your target platforms (Windows, macOS, Linux)
+
+</details>
+
+### 2.2 Platform-specific dependencies
 
 <details>
 <summary><b>macOS</b></summary>
@@ -71,9 +89,11 @@ brew install assimp
 <details>
 <summary><b>Linux</b></summary>
 
+If you did NOT use `install.sh`, install these manually:
+
 ```bash
 # Required packages
-sudo apt install libgconf-2-4
+sudo apt install libgconf-2-4 assimp-utils
 
 # From ubuntu-toolchain ppa
 sudo add-apt-repository ppa:ubuntu-toolchain-r/test
@@ -91,6 +111,37 @@ For headless Linux servers, see [TDW Linux setup guide](https://github.com/three
 
 </details>
 
+### 2.3 Activate Unity Hub & License (Linux)
+
+After installation, activate Unity Hub and your license:
+
+```bash
+export DISPLAY=:0
+unityhub --no-sandbox
+```
+
+A Unity Hub window will appear. You need to:
+1. **Login** to your Unity account
+2. **Activate** a Personal license (or your organization's license)
+3. **Verify** that Unity Editor **2020.3.48f1** appears in the Unity Hub Editor list
+
+### 2.4 Test Unity Editor Launch
+
+Before building asset bundles, verify Unity Editor works correctly:
+
+```bash
+$HOME/Unity/Hub/Editor/2020.3.48f1/Editor/Unity \
+  -batchmode -nographics -logFile /tmp/unity_editor.log
+```
+
+Check the log for any errors:
+
+```bash
+tail -n 200 /tmp/unity_editor.log
+```
+
+If Unity launches successfully (no errors in log), press `Ctrl+C` to exit.
+
 ---
 
 ## 3. Model Import
@@ -105,13 +156,22 @@ Before running the pipeline, build TDW asset bundles from the downloaded model a
 
 ### 3.1 Configure Unity path
 
-Edit `config.yaml` to set your Unity Editor path:
+Edit `config.yaml` to set your Unity Editor path. Below are **typical** installation paths (your actual path may vary):
+
+| Platform | Typical Unity Path |
+|----------|-------------------|
+| **macOS** | `/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity` |
+| **Windows** | `C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe` |
+| **Linux** | `$HOME/Unity/Hub/Editor/2020.3.48f1/Editor/Unity` |
+
+Example `config.yaml`:
 
 ```yaml
 model_import:
+  # Choose ONE of the following based on your platform:
   unity_path: "/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity"  # macOS
-  # unity_path: "C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe"  # Windows
-  # unity_path: "/path/to/Unity/Editor/Unity"  # Linux
+  # unity_path: "C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe"           # Windows
+  # unity_path: "/home/Unity/Hub/Editor/2020.3.48f1/Editor/Unity"                 # Linux
 ```
 
 ### 3.2 Build asset bundles
@@ -120,6 +180,13 @@ model_import:
 cd models/model_import
 chmod +x build_all_bundles.sh
 ./build_all_bundles.sh
+```
+
+**Troubleshooting**: If the build fails or produces unexpected results, check the Unity Editor log:
+
+```bash
+# Unity Editor log location (Linux)
+cat ~/.config/unity3d/Editor.log
 ```
 
 For more options, see `models/model_import/README.md`.
@@ -276,6 +343,7 @@ runXX/
 |---------|----------|
 | `unity_path is missing` | Set `model_import.unity_path` in config.yaml |
 | `record.json missing` | Check Unity path; verify `assimp` installed |
+| `RuntimeError: scooter1: record.json missing for scooter1` when running `build_all_bundles.sh` | Check Unity Editor log at `~/.config/unity3d/Editor.log` for detailed error info |
 | `module tdw not found` | Run `pip install tdw` or `source setup.sh` |
 | `tos_paths` errors | Verify Theory-of-Space is properly installed |
 | Door hash collision | Normal; pipeline auto-adjusts seed |
@@ -287,4 +355,5 @@ runXX/
 - [Theory-of-Space](https://github.com/williamzhangNU/Theory-of-Space) - Main benchmark repository
 - [TDW Documentation](https://github.com/threedworld-mit/tdw) - ThreeDWorld simulator
 - [TDW Custom Models](https://github.com/threedworld-mit/tdw/blob/master/Documentation/lessons/custom_models/custom_models.md) - Asset bundle creation guide
+- [Asset Bundle Creator](https://github.com/alters-mit/asset_bundle_creator) - Standalone tool for converting source files to Unity asset bundles
 - [Model Library](https://huggingface.co/datasets/yw12356/ToS_model_lib) - 3D model assets
