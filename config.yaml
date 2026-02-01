@@ -12,10 +12,10 @@ tos_paths:
 # Model Import Settings
 model_import:
   # Unity Editor path - required for building asset bundles
-  # Recommended version: Unity 2020.3.48 (installed via Unity Hub)
+  # Recommended version: Unity 2020.3.24 (installed via Unity Hub)
   # Platform-specific paths:
-  #   macOS: /Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity
-  #   Windows: C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe
+  #   macOS: /Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MacOS/Unity
+  #   Windows: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Unity.exe
   #   Linux: /path/to/Unity/Editor/Unity
   unity_path: ""
 

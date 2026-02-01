@@ -18,7 +18,7 @@ The `model_lib/` directory is not tracked in Git because it contains ~800 meshes
 
 | Requirement | Notes |
 |-------------|-------|
-| **Unity Editor** | Recommended: **2020.3.48** (via Unity Hub). Set path in `config.yaml` under `model_import.unity_path` |
+| **Unity Editor** | Recommended: **2020.3.24** (via Unity Hub). Set path in `config.yaml` under `model_import.unity_path` |
 | **`assimp` CLI** | For FBX→OBJ conversion. macOS: `brew install assimp`, Linux: `sudo apt install assimp-utils` |
 | **Python 3.10+** | With TDW's `ModelCreator` module available |
 | **Git LFS** | Required to download models from Hugging Face |
@@ -55,21 +55,21 @@ In `config.yaml` (at repo root), set the Unity Editor path. Below are **typical*
 
 | Platform | Typical Unity Path |
 |----------|-------------------|
-| **macOS** | `/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity` |
-| **Windows** | `C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe` |
-| **Linux** | `$HOME/Unity/Hub/Editor/2020.3.48f1/Editor/Unity` |
+| **macOS** | `/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MacOS/Unity` |
+| **Windows** | `C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Unity.exe` |
+| **Linux** | `$HOME/Unity/Hub/Editor/2020.3.24f1/Editor/Unity` |
 
 Example `config.yaml`:
 
 ```yaml
 model_import:
   # Choose ONE of the following based on your platform:
-  unity_path: "/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity"  # macOS
-  # unity_path: "C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe"           # Windows
-  # unity_path: "/home/youruser/Unity/Hub/Editor/2020.3.48f1/Editor/Unity"                 # Linux
+  unity_path: "/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MacOS/Unity"  # macOS
+  # unity_path: "C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Unity.exe"           # Windows
+  # unity_path: "/home/youruser/Unity/Hub/Editor/2020.3.24f1/Editor/Unity"                 # Linux
 ```
 
-**Note**: Recommended Unity version is **2020.3.48** for best compatibility.
+**Note**: Recommended Unity version is **2020.3.24** for best compatibility.
 
 ## Step 3: Build Asset Bundles
 

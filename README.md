@@ -57,7 +57,7 @@ TDW requires Unity Editor to build custom model asset bundles.
 <details>
 <summary><b>Linux /Linux Servers(Recommended: use install.sh)</b></summary>
 
-The `install.sh` script automatically downloads and installs Unity Hub, Unity Editor 2020.3.48, and all required dependencies:
+The `install.sh` script automatically downloads and installs Unity Hub, Unity Editor 2020.3.24, and all required dependencies:
 
 ```bash
 chmod +x install.sh
@@ -70,7 +70,7 @@ chmod +x install.sh
 <summary><b>Linux/ macOS / Windows (Manual installation)</b></summary>
 
 1. Download and install [Unity Hub](https://unity.com/download)
-2. Install Unity **2020.3.48** via Unity Hub. When installing, add build support for your target platforms (Windows, macOS, Linux)
+2. Install Unity **2020.3.24** via Unity Hub. When installing, add build support for your target platforms (Windows, macOS, Linux)
 
 </details>
 
@@ -123,14 +123,14 @@ unityhub --no-sandbox
 A Unity Hub window will appear. You need to:
 1. **Login** to your Unity account
 2. **Activate** a Personal license (or your organization's license)
-3. **Verify** that Unity Editor **2020.3.48f1** appears in the Unity Hub Editor list
+3. **Verify** that Unity Editor **2020.3.24f1** appears in the Unity Hub Editor list
 
 ### 2.4 Test Unity Editor Launch
 
 Before building asset bundles, verify Unity Editor works correctly:
 
 ```bash
-$HOME/Unity/Hub/Editor/2020.3.48f1/Editor/Unity \
+$HOME/Unity/Hub/Editor/2020.3.24f1/Editor/Unity \
   -batchmode -nographics -logFile /tmp/unity_editor.log
 ```
 
@@ -160,18 +160,18 @@ Edit `config.yaml` to set your Unity Editor path. Below are **typical** installa
 
 | Platform | Typical Unity Path |
 |----------|-------------------|
-| **macOS** | `/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity` |
-| **Windows** | `C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe` |
-| **Linux** | `$HOME/Unity/Hub/Editor/2020.3.48f1/Editor/Unity` |
+| **macOS** | `/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MacOS/Unity` |
+| **Windows** | `C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Unity.exe` |
+| **Linux** | `$HOME/Unity/Hub/Editor/2020.3.24f1/Editor/Unity` |
 
 Example `config.yaml`:
 
 ```yaml
 model_import:
   # Choose ONE of the following based on your platform:
-  unity_path: "/Applications/Unity/Hub/Editor/2020.3.48f1/Unity.app/Contents/MacOS/Unity"  # macOS
-  # unity_path: "C:/Program Files/Unity/Hub/Editor/2020.3.48f1/Editor/Unity.exe"           # Windows
-  # unity_path: "/home/Unity/Hub/Editor/2020.3.48f1/Editor/Unity"                 # Linux
+  unity_path: "/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MacOS/Unity"  # macOS
+  # unity_path: "C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Unity.exe"           # Windows
+  # unity_path: "/home/Unity/Hub/Editor/2020.3.24f1/Editor/Unity"                 # Linux
 ```
 
 ### 3.2 Build asset bundles

@@ -12,7 +12,7 @@ sudo mkdir -p ${HOME}/Unity/Hub/Editor
 sudo chown -R "$USER":"$USER" ${HOME}/Unity/Hub/Editor
 xvfb-run --auto-servernum unityhub --headless install-path --set ${HOME}/Unity/Hub/Editor
 
-xvfb-run --auto-servernum unityhub --no-sandbox --headless install --version 2020.3.48f1 # --changeset b805b124c6b7
+xvfb-run --auto-servernum unityhub --no-sandbox --headless install --version 2020.3.24f1 # --changeset b805b124c6b7
 
 # Required packages
 sudo apt install -y libgconf-2-4
