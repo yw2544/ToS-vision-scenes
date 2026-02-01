@@ -2,9 +2,9 @@
 
 Visual scene generation module for [Theory of Space](https://github.com/williamzhangNU/Theory-of-Space). This module generates multi-room 3D environments using TDW (ThreeDWorld) for spatial reasoning experiments.
 
-> **Note**: This module is part of the Theory-of-Space repository, located at `Theory-of-Space/ToS-vision-scenes/`.
+> **Note**: This module is available on the `scene_gen` branch of Theory-of-Space (not included in the main release).
 
-> **Remote Server Requirement**: If running on a remote server, make sure the server has a **graphical display** attached (not headless). TDW and Unity require a display for rendering. For headless servers, you may need to set up a virtual display (e.g., Xvfb) or use GPU-accelerated remote rendering.
+> **Pre-generated Dataset**: If you ran `source setup.sh` in the main Theory-of-Space repo, the 3-room dataset (100 runs, including false-belief data) is already downloaded to `room_data/`. You only need this module if you want to generate **custom** scenes.
 
 ## Features
 
@@ -15,28 +15,29 @@ Visual scene generation module for [Theory of Space](https://github.com/williamz
 
 ---
 
-## 1. Installation
+## Linux Server Setup
 
-> **Note**: `ToS-vision-scenes` is a git submodule of Theory-of-Space. When cloning the main repository, use `--recursive` to include it:
-> ```bash
-> git clone --recursive https://github.com/williamzhangNU/Theory-of-Space.git
-> ```
-> Or if already cloned, run: `git submodule update --init --recursive`
+This section provides a streamlined setup for Linux servers (Ubuntu 18.04+). Most users running on remote servers should follow this guide.
 
-### Step 0: Set up Theory-of-Space (prerequisite)
+### Requirements
 
-This step assumes you have already cloned and set up the main Theory-of-Space repository:
+- **Non-headless server** with a graphical display attached (physical or virtual via Xvfb)
+- TDW and Unity require X11 display for rendering
 
+### Step 1: Clone and set up Theory-of-Space (skip if already done)
 ```bash
+git clone https://github.com/williamzhangNU/Theory-of-Space.git
 cd Theory-of-Space
+git checkout scene_gen
+git submodule update --init --recursive
 source setup.sh
 ```
 
-This creates the `tos` conda environment with all base dependencies.
+This creates the `tos` conda environment and downloads the pre-generated dataset.
 
-### Step 1: Install ToS-vision-scenes dependencies
+### Step 2: Install ToS-vision-scenes dependencies
 
-> **Important**: Before running `setup.sh`, add your Hugging Face token in `Theory-of-Space/setup.sh` to enable model downloads. You can get a token from [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens).
+> **Optional**: Set `HF_TOKEN` in `setup.sh` to avoid Hugging Face rate limits (429 errors). Get a token from [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens).
 
 ```bash
 conda activate tos
@@ -44,37 +45,110 @@ cd ToS-vision-scenes
 source setup.sh
 ```
 
-This installs additional packages (TDW, huggingface_hub) required for visual scene generation.
+### Step 3: Install Unity Hub & Editor
 
----
-
-## 2. Unity Setup (Required for Custom Models)
-
-TDW requires Unity Editor to build custom model asset bundles.
-
-### 2.1 Install Unity Hub & Editor
-
-<details>
-<summary><b>Linux /Linux Servers(Recommended: use install.sh)</b></summary>
-
-The `install.sh` script automatically downloads and installs Unity Hub, Unity Editor 2020.3.24, and all required dependencies:
+The `install.sh` script automatically installs Unity Hub, Unity Editor 2020.3.24, and all required system dependencies:
 
 ```bash
 chmod +x install.sh
 ./install.sh
 ```
 
-</details>
+This script handles:
+- Unity Hub installation
+- Unity Editor 2020.3.24f1 with Linux build support
+- System packages: `libgconf-2-4`, `assimp-utils`, `gcc-9`, `libstdc++6`
 
-<details>
-<summary><b>Linux/ macOS / Windows (Manual installation)</b></summary>
+### Step 4: Activate Unity License
+
+Set up display and open Unity Hub:
+
+```bash
+export DISPLAY=:0
+unityhub --no-sandbox
+```
+
+In the Unity Hub window:
+1. **Login** to your Unity account
+2. **Activate** a Personal license (or your organization's license)
+3. **Verify** that Unity Editor **2020.3.24f1** appears in the Editor list
+
+> **Headless servers**: If no physical display is available, set up Xvfb first. See [TDW Linux setup guide](https://github.com/threedworld-mit/tdw/blob/master/Documentation/lessons/setup/server.md).
+
+### Step 5: Test Unity Editor
+
+```bash
+$HOME/Unity/Hub/Editor/2020.3.24f1/Editor/Unity \
+  -batchmode -nographics -logFile /tmp/unity_editor.log
+```
+
+Check for errors:
+
+```bash
+tail -n 200 /tmp/unity_editor.log
+```
+
+If successful (no errors), press `Ctrl+C` to exit.
+
+### Step 6: Configure and build asset bundles
+
+Edit `config.yaml` to set Unity path:
+
+```yaml
+model_import:
+  unity_path: "$HOME/Unity/Hub/Editor/2020.3.24f1/Editor/Unity"
+```
+
+Build asset bundles:
+
+```bash
+cd models/model_import
+chmod +x build_all_bundles.sh
+./build_all_bundles.sh
+```
+
+### Step 7: Test scene generation
+
+```bash
+cd ../..  # back to ToS-vision-scenes root
+python generate_pipeline.py --config config.yaml
+```
+
+If successful, generated scenes will appear in the output directory.
+
+---
+
+## macOS / Windows Setup
+
+For local development on macOS or Windows.
+
+### Step 1: Clone and set up Theory-of-Space
+
+```bash
+git clone https://github.com/williamzhangNU/Theory-of-Space.git
+cd Theory-of-Space
+git checkout scene_gen
+git submodule update --init --recursive
+source setup.sh   # or setup.bat on Windows
+```
+
+### Step 2: Install ToS-vision-scenes dependencies
+
+> **Optional**: Set `HF_TOKEN` in `setup.sh` to avoid Hugging Face rate limits (429 errors). Get a token from [huggingface.co/settings/tokens](https://huggingface.co/settings/tokens).
+
+```bash
+conda activate tos
+cd ToS-vision-scenes
+source setup.sh
+```
+
+### Step 3: Install Unity Hub & Editor
 
 1. Download and install [Unity Hub](https://unity.com/download)
-2. Install Unity **2020.3.24** via Unity Hub. When installing, add build support for your target platforms (Windows, macOS, Linux)
+2. Install Unity **2020.3.24** via Unity Hub
+3. Add build support for your target platform (macOS or Windows)
 
-</details>
-
-### 2.2 Platform-specific dependencies
+### Step 4: Platform-specific dependencies
 
 <details>
 <summary><b>macOS</b></summary>
@@ -87,113 +161,62 @@ brew install assimp
 </details>
 
 <details>
-<summary><b>Linux</b></summary>
-
-If you did NOT use `install.sh`, install these manually:
-
-```bash
-# Required packages
-sudo apt install libgconf-2-4 assimp-utils
-
-# From ubuntu-toolchain ppa
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test
-sudo apt install gcc-9 libstdc++6
-```
-
-For headless Linux servers, see [TDW Linux setup guide](https://github.com/threedworld-mit/tdw/blob/master/Documentation/lessons/setup/server.md).
-
-</details>
-
-<details>
 <summary><b>Windows</b></summary>
 
-- [Visual C++ 2012 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=30679)
+- Install [Visual C++ 2012 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=30679)
 
 </details>
 
-### 2.3 Activate Unity Hub & License (Linux)
+### Step 5: Configure Unity path
 
-After installation, activate Unity Hub and your license:
-
-```bash
-export DISPLAY=:0
-unityhub --no-sandbox
-```
-
-A Unity Hub window will appear. You need to:
-1. **Login** to your Unity account
-2. **Activate** a Personal license (or your organization's license)
-3. **Verify** that Unity Editor **2020.3.24f1** appears in the Unity Hub Editor list
-
-### 2.4 Test Unity Editor Launch
-
-Before building asset bundles, verify Unity Editor works correctly:
-
-```bash
-$HOME/Unity/Hub/Editor/2020.3.24f1/Editor/Unity \
-  -batchmode -nographics -logFile /tmp/unity_editor.log
-```
-
-Check the log for any errors:
-
-```bash
-tail -n 200 /tmp/unity_editor.log
-```
-
-If Unity launches successfully (no errors in log), press `Ctrl+C` to exit.
-
----
-
-## 3. Model Import
-
-Before running the pipeline, build TDW asset bundles from the downloaded model assets.
-
-> **Note**: Model assets are automatically downloaded during `source setup.sh`. If you need to re-download manually:
-> ```bash
-> huggingface-cli download yw12356/ToS_model_lib --repo-type dataset --local-dir models/model_import/model_lib
-> ```
-> Dataset preview: https://huggingface.co/datasets/yw12356/ToS_model_lib
-
-### 3.1 Configure Unity path
-
-Edit `config.yaml` to set your Unity Editor path. Below are **typical** installation paths (your actual path may vary):
-
-| Platform | Typical Unity Path |
-|----------|-------------------|
-| **macOS** | `/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MacOS/Unity` |
-| **Windows** | `C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Unity.exe` |
-| **Linux** | `$HOME/Unity/Hub/Editor/2020.3.24f1/Editor/Unity` |
-
-Example `config.yaml`:
+Edit `config.yaml`:
 
 ```yaml
 model_import:
-  # Choose ONE of the following based on your platform:
-  unity_path: "/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MacOS/Unity"  # macOS
-  # unity_path: "C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Unity.exe"           # Windows
-  # unity_path: "/home/Unity/Hub/Editor/2020.3.24f1/Editor/Unity"                 # Linux
+  # macOS
+  unity_path: "/Applications/Unity/Hub/Editor/2020.3.24f1/Unity.app/Contents/MacOS/Unity"
+  # Windows
+  # unity_path: "C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Unity.exe"
 ```
 
-### 3.2 Build asset bundles
+### Step 6: Build asset bundles
 
 ```bash
 cd models/model_import
-chmod +x build_all_bundles.sh
+chmod +x build_all_bundles.sh   # macOS only
 ./build_all_bundles.sh
 ```
 
-**Troubleshooting**: If the build fails or produces unexpected results, check the Unity Editor log:
+**Troubleshooting**: If the build fails, check the Unity Editor log:
+- macOS: `~/Library/Logs/Unity/Editor.log`
+- Windows: `%LOCALAPPDATA%\Unity\Editor\Editor.log`
+
+### Step 7: Test scene generation
 
 ```bash
-# Unity Editor log location (Linux)
-cat ~/.config/unity3d/Editor.log
+cd ../..  # back to ToS-vision-scenes root
+python generate_pipeline.py --config config.yaml
 ```
 
-For more options, see `models/model_import/README.md`.
+If successful, generated scenes will appear in the output directory.
 
 ---
 
-## 4. Configuration
+## Model Assets
+
+Model assets are automatically downloaded during `source setup.sh`. If you need to re-download manually:
+
+```bash
+huggingface-cli download yw12356/ToS_model_lib --repo-type dataset --local-dir models/model_import/model_lib
+```
+
+Dataset preview: https://huggingface.co/datasets/yw12356/ToS_model_lib
+
+For more build options, see `models/model_import/README.md`.
+
+---
+
+## Configuration
 
 Edit `config.yaml` to configure the pipeline:
 
@@ -224,7 +247,7 @@ batch:
 
 ---
 
-## 5. Running the Pipeline
+## Running the Pipeline
 
 ### Basic usage
 
@@ -250,7 +273,7 @@ python generate_pipeline.py --config config.yaml --output ./my_dataset
 
 ---
 
-## 6. False-Belief Experiment Mode
+## False-Belief Experiment Mode
 
 Generate modified scenes for belief updating experiments. This mode modifies existing scenes by moving or rotating objects.
 
@@ -300,7 +323,7 @@ python generate_pipeline.py --config config.yaml \
 
 ---
 
-## 7. Repository Structure
+## Repository Structure
 
 ```
 ToS-vision-scenes/
@@ -322,7 +345,7 @@ ToS-vision-scenes/
 
 ---
 
-## 8. Output Structure
+## Output Structure
 
 Each run generates:
 
@@ -337,7 +360,7 @@ runXX/
 
 ---
 
-## 9. Troubleshooting
+## Troubleshooting
 
 | Symptom | Solution |
 |---------|----------|
@@ -350,7 +373,7 @@ runXX/
 
 ---
 
-## 10. Related Resources
+## Related Resources
 
 - [Theory-of-Space](https://github.com/williamzhangNU/Theory-of-Space) - Main benchmark repository
 - [TDW Documentation](https://github.com/threedworld-mit/tdw) - ThreeDWorld simulator
