@@ -14,6 +14,9 @@ xvfb-run --auto-servernum unityhub --headless install-path --set ${HOME}/Unity/H
 
 xvfb-run --auto-servernum unityhub --no-sandbox --headless install --version 2020.3.24f1 # --changeset b805b124c6b7
 
+# Set unity_path in config.yaml
+sed -i "s|unity_path: \".*\"|unity_path: \"$HOME/Unity/Hub/Editor/2020.3.24f1/Editor/Unity\"|" "$(dirname "${BASH_SOURCE[0]}")/config.yaml"
+
 # Required packages
 sudo apt install -y libgconf-2-4
 sudo apt install -y assimp-utils
