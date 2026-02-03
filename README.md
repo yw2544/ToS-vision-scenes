@@ -26,9 +26,8 @@ This section provides a streamlined setup for Linux servers (Ubuntu 18.04+). Mos
 
 ### Step 1: Clone and set up Theory-of-Space (skip if already done)
 ```bash
-git clone --single-branch --branch release https://github.com/williamzhangNU/Theory-of-Space.git
+git clone --single-branch --branch scene_gen https://github.com/williamzhangNU/Theory-of-Space.git
 cd Theory-of-Space
-git checkout scene_gen
 git submodule update --init --recursive
 source setup.sh
 ```
