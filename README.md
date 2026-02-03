@@ -29,7 +29,7 @@ This section provides a streamlined setup for Linux servers (Ubuntu 18.04+). Mos
 git clone --single-branch --branch scene_gen https://github.com/williamzhangNU/Theory-of-Space.git
 cd Theory-of-Space
 git submodule update --init --recursive
-source setup.sh
+source setup.sh 2>&1 | tee setup.log
 ```
 
 This creates the `tos` conda environment and downloads the pre-generated dataset.
@@ -41,7 +41,7 @@ This creates the `tos` conda environment and downloads the pre-generated dataset
 ```bash
 conda activate tos
 cd ToS-vision-scenes
-source setup.sh
+source setup.sh 2>&1 | tee setup.log
 ```
 
 ### Step 3: Install Unity Hub & Editor
